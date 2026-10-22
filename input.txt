@@ -1,0 +1,20 @@
+Subject profile: 
+    username: unplugged.raagam
+    description: Raagam is a music artist who creates music videos for his songs.
+    
+    
+competitors: 
+    competitor1:
+        username: paadu_bro_official
+        description: paadu bro is a music artist who creates music videos for his songs.
+       
+    competitor2:
+        username: paata_shala
+        description: Paatashaala is a music artist who creates music videos for his songs.
+       
+    competitor3:
+        username: chinna_viramam
+        description: chinna viramam music is a music artist who creates music videos for his songs.
+
+
+important_accounts:

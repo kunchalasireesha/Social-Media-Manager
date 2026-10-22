@@ -1,0 +1,1628 @@
+Viral Script Amplification Output
+
+Creator: @unplugged.raagam
+
+============================================================
+
+# Instagram Script Amplification Pack — @unplugged.raagam
+
+**Event promoted:** August 8, 2026  
+**Language:** Conversational Telugu-English  
+**Important note:** Venue, time, ticket price, registration link, and final set list were not provided, so they are intentionally not invented.
+
+---
+
+## SCRIPT 1 — “Can You Recognise the Song Before the Crowd Sings?”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 2 expansion from Rank 1, “The Whole Room Knows This Song”
+- **Expansion rule used:** New hook family using familiar Telugu music and crowd participation without repeating Prompt 5’s crowd-reaction announcement.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Viewers identify a Telugu song from the first crowd-sung line.
+- **Exact angle:** The crowd’s first lyric becomes a recognition challenge.
+- **Format:** Text-led crowd Reel.
+- **Intended audience reaction:** Rewatch, comment the song name, share with Telugu music friends.
+- **Language and tone:** Playful Telugu-English; a challenge feels more participatory than a direct promotion.
+- **Estimated length:** 15–18 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “First line vintene song guess cheyyagalara?”
+- **Alternate hook:**  
+  “The crowd sang one line… can you identify this Telugu song?”
+- **Why this hook was chosen:** It opens the actual musical challenge immediately and creates curiosity around the song without beginning with event logistics.
+
+### Full Script
+
+**0:00–0:02 — Visual:**  
+Open on a close shot of the crowd singing the first recognisable line of **“Peniviti.”**
+
+**On-screen text:**  
+> “First line vintene song guess cheyyagalara?”
+
+**0:02–0:06 — Visual:**  
+Show three quick crowd reactions: one person singing, one person smiling, one group joining.
+
+**Voiceover:**  
+> “No title card. No clue. Just listen to the first line.”
+
+**0:06–0:09 — Visual:**  
+Pause the footage just before the most recognisable part of the chorus.
+
+**On-screen text:**  
+> “Guess before the chorus…”
+
+**0:09–0:12 — Visual:**  
+Play the chorus as the crowd sings together.
+
+**Voiceover:**  
+> “It’s **Peniviti** — and this is what happens when Telugu songs become everyone’s memory.”
+
+**0:12–0:16 — Visual:**  
+Show the widest available crowd shot.
+
+**Voiceover:**  
+> “August 8th, mee song memory tho come sing with us.”
+
+**On-screen text:**  
+> “Unplugged Raagam | August 8, 2026”
+
+**0:16–0:18 — Visual:**  
+End on crowd audio.
+
+**On-screen CTA:**  
+> “Song guess ayithe comment cheyyandi.”
+
+### Execution Notes
+
+- Use the actual **Peniviti** audio or existing crowd footage only if available and cleared for use.
+- Do not reveal the song title before the challenge ends.
+- Keep the natural crowd audio louder than the background track.
+- Add subtitles in English for accessibility.
+- Do not begin with the account logo or event poster.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “First line tho song guess cheyyagalara? 🎶”
+- **Caption tone:** Short, playful, comment-led.
+- **Hashtag directions:** Telugu music niche; Telugu song discovery; sing-along/community; local event discovery.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s “familiar Telugu music as the discovery entry point” and the audience-reaction pattern from @unplugged.raagam’s Kajal and DSP HITS posts. The familiar song is revealed through crowd participation rather than a plain performance.
+- **Audience Psychology Trigger:** **Curiosity gap** and **rewatch behavior**. Viewers must wait for the chorus to confirm whether their guess was correct, and many will replay the opening to identify the lyric.
+- **Comparable Proof:** @paadu_bro_official’s recognisable song-performance post generated 277,593 views and 454,577 plays; @unplugged.raagam’s DSP HITS post generated 1,969,269 views.
+- **Instagram Algorithm Signal:** **Rewatch behavior.** The challenge requires viewers to hear the opening again and compare it with the revealed chorus.
+- **Follower Growth Mechanism:** The creator is positioned as a source of Telugu music challenges, crowd moments, and song memories. Viewers interested in future song challenges have a reason to follow.
+- **Confidence Assessment:** **High Confidence** — it combines proven song recognition with a concrete viewer task; the main risk is weak or unclear crowd audio.
+
+---
+
+## SCRIPT 2 — “DSP or Thaman?”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 2 expansion from Rank 2, Love V/S Breakup comparison carousel.
+- **Expansion rule used:** New comparison angle using two familiar Telugu music identities, while correcting Prompt 3’s finding that artist names alone are insufficient.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Choosing between DSP and Thaman songs for a group sing-along.
+- **Exact angle:** The real question is not which composer is better; it is which one the whole room will sing louder.
+- **Format:** Comparison carousel.
+- **Intended audience reaction:** Debate, comments, friend tagging, saves.
+- **Language and tone:** Playful Telugu-English.
+- **Estimated length:** 7 slides.
+
+### Hook
+
+- **Final chosen hook:**  
+  “DSP aa? Thaman aa? August 8th lo evari songs ki room louder ga paaduthundi?”
+- **Alternate hook:**  
+  “One room. Two Telugu music moods. Pick your side.”
+- **Why this hook was chosen:** It creates a specific debate tied to a measurable social outcome: which songs produce the louder crowd.
+
+### Full Slide-by-Slide Script
+
+#### Slide 1
+
+**Headline:**  
+> “DSP aa? Thaman aa?”
+
+**Subtext:**  
+> “August 8th lo evari songs ki room louder ga paaduthundi?”
+
+#### Slide 2
+
+**Headline:**  
+> “DSP SIDE”
+
+**Body:**  
+> “Mass energy. Big chorus.  
+> First beat nunchi everyone is ready.”
+
+#### Slide 3
+
+**Headline:**  
+> “THAMAN SIDE”
+
+**Body:**  
+> “Anthem energy. Emotional lift.  
+> One beat and the whole room moves.”
+
+#### Slide 4
+
+**Headline:**  
+> “The real test?”
+
+**Body:**  
+> “Which side makes the shy friend sing too?”
+
+#### Slide 5
+
+**Headline:**  
+> “Your gang has one answer.”
+
+**Body:**  
+> “DSP people sing with full confidence.  
+> Thaman people wait for the beat drop.”
+
+#### Slide 6
+
+**Headline:**  
+> “Choose one.”
+
+**Large text:**  
+> “DSP”  
+> “THAMAN”
+
+**Subtext:**  
+> “No ‘both’ answers.”
+
+#### Slide 7
+
+**Headline:**  
+> “Let’s settle it through singing.”
+
+**Body:**  
+> “Unplugged Raagam — August 8, 2026”
+
+**CTA:**  
+> “Comment DSP or THAMAN and tag the opposite-side friend.”
+
+### Execution Notes
+
+- Do not list songs unless the August 8 set list is confirmed.
+- Use verified event or rehearsal visuals, not unrelated artist imagery.
+- Use contrasting colour palettes for each side.
+- Pin a comment: “Which exact song should represent your side?”
+- Keep the final slide focused on the date and action.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “This debate will divide every Telugu music gang.”
+- **Caption tone:** Short, playful, debate-led.
+- **Hashtag directions:** Telugu composers; Telugu music fans; sing-along events; city/event discovery.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s “familiar Telugu music” and “distinct comparison or debate” patterns, while adapting Prompt 3’s lesson that a familiar artist name needs a stronger premise.
+- **Audience Psychology Trigger:** **Debate trigger** and **identity resonance**. Viewers are asked to publicly identify with one music camp and tag someone from the opposite camp.
+- **Comparable Proof:** @unplugged.raagam’s DSP HITS post generated 1,969,269 views and 3,275,355 plays; its Thaman announcement underperformed because it lacked an interactive premise. This script adds the missing choice.
+- **Instagram Algorithm Signal:** **Comment behavior.** The “DSP or THAMAN” choice is quick to answer and naturally invites disagreement.
+- **Follower Growth Mechanism:** It positions @unplugged.raagam as a Telugu music community that creates participatory debates, not only event announcements.
+- **Confidence Assessment:** **High Confidence** — the music references are proven, and the comparison solves the previous packaging weakness; the risk is that viewers may answer “both.”
+
+---
+
+## SCRIPT 3 — “Can You Come Alone?”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 2 expansion from Rank 5, “What Actually Happens at Unplugged Raagam.”
+- **Expansion rule used:** New audience barrier angle based on community proof and attendee consideration.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Whether someone can attend Unplugged Raagam alone.
+- **Exact angle:** You may arrive alone, but singing creates connection quickly.
+- **Format:** Experience carousel.
+- **Intended audience reaction:** Saves, shares, profile visits from hesitant first-time attendees.
+- **Language and tone:** Reassuring Telugu-English.
+- **Estimated length:** 7 slides.
+
+### Hook
+
+- **Final chosen hook:**  
+  “Friends free ga leru? You can still come to Unplugged Raagam.”
+- **Alternate hook:**  
+  “Coming alone does not mean singing alone.”
+- **Why this hook was chosen:** It addresses a specific attendance barrier instead of making a generic community claim.
+
+### Full Slide-by-Slide Script
+
+#### Slide 1
+
+> “Friends free ga leru?”
+
+**Second line:**  
+> “You can still come to Unplugged Raagam.”
+
+#### Slide 2
+
+> “You arrive alone.”
+
+**Subtext:**  
+> “That part may feel awkward for exactly five minutes.”
+
+#### Slide 3
+
+> “Then someone sings a song you know.”
+
+**Subtext:**  
+> “Suddenly, you have an easy conversation starter.”
+
+#### Slide 4
+
+> “The chorus begins.”
+
+**Subtext:**  
+> “You do not need an introduction to join.”
+
+#### Slide 5
+
+> “You sing with people…”
+
+**Subtext:**  
+> “…who came for the same Telugu songs.”
+
+#### Slide 6
+
+> “By the end?”
+
+**Subtext:**  
+> “You came alone. You did not leave disconnected.”
+
+#### Slide 7
+
+> “August 8, 2026”
+
+**Subtext:**  
+> “A space to sing, connect & grow.”
+
+**CTA:**  
+> “Save this if you were waiting for someone to come with you.”
+
+### Execution Notes
+
+- Use authentic images of mixed groups, audience singing, and host interaction.
+- Do not promise friendship outcomes that cannot be supported.
+- If the event has a specific solo-attendee process, add it only after confirmation.
+- Make the final slide visually calm and reassuring.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “Waiting for your gang should not stop you from singing.”
+- **Caption tone:** Warm and reassuring.
+- **Hashtag directions:** Solo event attendance; Telugu music community; local social events; sing-along culture.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s community-proof and experience-led event patterns, adapted into a specific “coming alone” barrier.
+- **Audience Psychology Trigger:** **Validation** and **save-worthy utility.** People who hesitate to attend alone feel understood and can save the post as reassurance.
+- **Comparable Proof:** @unplugged.raagam’s audience testimonial post generated 16 comments from 558 views; Chinna Viramam’s experience-led content framed the event as a feeling, not just a performance.
+- **Instagram Algorithm Signal:** **Save behavior.** The carousel answers a practical emotional question that hesitant attendees may revisit or send to a friend.
+- **Follower Growth Mechanism:** It signals that the account understands first-time attendees and offers more than music clips: it offers a welcoming community experience.
+- **Confidence Assessment:** **High Confidence** — the barrier is specific and aligned with the brand promise; the main risk is insufficient visual proof of attendee interaction.
+
+---
+
+## SCRIPT 4 — “Finish the Lyric”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 1 expansion from Rank 3, specific social identity prompts.
+- **Expansion rule used:** New interactive format using the hosts and familiar Telugu lyrics rather than repeating the wrong-lyrics friend Reel.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Hosts start a familiar Telugu lyric and viewers finish it.
+- **Exact angle:** Test whether Telugu music fans know the next line.
+- **Format:** Talking-head challenge Reel.
+- **Intended audience reaction:** Comments completing lyrics, rewatch, shares.
+- **Language and tone:** Energetic, playful, host-led.
+- **Estimated length:** 15 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “Next line cheppakunda scroll chesthe, Telugu music fan ani ela prove chestharu?”
+- **Alternate hook:**  
+  “Hosts start the lyric. You finish it.”
+- **Why this hook was chosen:** It makes the viewer participate immediately and opens the exact challenge.
+
+### Full Script
+
+**0:00–0:02 — Visual:**  
+@__.lasya.vocals__ faces camera.
+
+**Lasya:**  
+> “Next line cheppakunda scroll chesthe, Telugu music fan ani ela prove chestharu?”
+
+**On-screen text:**  
+> “Finish the lyric.”
+
+**0:02–0:05 — Visual:**  
+Lasya sings or says the first part of the verified lyric from **Peniviti**, stopping before the next line.
+
+**Lasya:**  
+> “Peniviti… [first verified lyric line from the available performance].”
+
+**Important production direction:**  
+The lyric must be taken exactly from the cleared audio being used.
+
+**0:05–0:08 — Visual:**  
+Cut to @pranidhiiii looking at camera, pretending to wait.
+
+**Pranidhiiii:**  
+> “Comments lo next line complete cheyyandi.”
+
+**0:08–0:12 — Visual:**  
+Cut to both hosts singing the chorus from the available performance.
+
+**Both:**  
+> “Because one line is enough to make the whole room sing.”
+
+**0:12–0:15 — Visual:**  
+Show crowd footage or hosts together.
+
+**Lasya:**  
+> “August 8th, live ga kalisi paadadhaam.”
+
+**On-screen text:**  
+> “Unplugged Raagam | August 8, 2026”
+
+### Execution Notes
+
+- Use only lyrics that are legally cleared for the content and accurately transcribed.
+- Do not put the full lyric in the caption.
+- Stop before the obvious answer to create participation.
+- Use direct eye contact and a quick cut.
+- Pin a comment asking viewers to complete the line.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “Next line meeku telusa? Don’t Google it 😄”
+- **Caption tone:** Playful and concise.
+- **Hashtag directions:** Telugu lyric community; Telugu music fans; song challenge; event discovery.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s familiar-song pattern and social participation pattern, with a lyric-completion mechanic.
+- **Audience Psychology Trigger:** **Identity resonance** and **curiosity gap.** Viewers want to prove they know the song and check whether others complete the lyric correctly.
+- **Comparable Proof:** @paadu_bro_official’s recognisable song-performance posts generated 237,000–277,593 views; @unplugged.raagam’s Bob cultural prompt demonstrated that a specific challenge can improve discovery.
+- **Instagram Algorithm Signal:** **Comment behavior** and **rewatch behavior.** Viewers comment the missing line and replay to verify the exact lyric.
+- **Follower Growth Mechanism:** It creates a repeatable “finish the lyric” series associated with the hosts, encouraging music fans to follow for future challenges.
+- **Confidence Assessment:** **High Confidence** — the action is simple and culturally relevant; the main risk is inaccurate lyric delivery or using a song viewers do not immediately recognise.
+
+---
+
+## SCRIPT 5 — “From Empty Room to One Voice”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 1 expansion from Rank 1 and Rank 5.
+- **Expansion rule used:** Alternative format for crowd proof: storytelling voiceover instead of direct crowd-hook Reel.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** How a quiet room becomes a collective singing experience.
+- **Exact angle:** The emotional transformation from arrival to shared chorus.
+- **Format:** Voiceover storytelling Reel.
+- **Intended audience reaction:** Emotional connection, shares, profile visits.
+- **Language and tone:** Calm, cinematic Telugu-English.
+- **Estimated length:** 25–30 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “Before the first song, everyone is a stranger.”
+- **Alternate hook:**  
+  “The room is quiet for only a few minutes.”
+- **Why this hook was chosen:** It establishes a clear before-and-after story that the footage can prove.
+
+### Full Script
+
+**0:00–0:03 — Visual:**  
+Show the room before the performance begins: chairs, stage, microphones, or people arriving.
+
+**Voiceover:**  
+> “Before the first song, everyone is a stranger.”
+
+**On-screen text:**  
+> “Before the first song…”
+
+**0:03–0:08 — Visual:**  
+Show people settling in and looking toward the stage.
+
+**Voiceover:**  
+> “Some come with friends. Some come quietly. Some are still deciding whether to sing.”
+
+**0:08–0:13 — Visual:**  
+Show the performer beginning a familiar Telugu song.
+
+**Voiceover:**  
+> “Then one familiar song starts…”
+
+**0:13–0:19 — Visual:**  
+Show one audience member joining, followed by more people singing.
+
+**Voiceover:**  
+> “…one person joins, then another, and suddenly the room has one voice.”
+
+**0:19–0:24 — Visual:**  
+Show the strongest crowd chorus.
+
+**Voiceover:**  
+> “That is the part no poster can explain.”
+
+**0:24–0:28 — Visual:**  
+Show hosts, crowd, and final singing moment.
+
+**Voiceover:**  
+> “August 8th, come be part of that voice.”
+
+**On-screen text:**  
+> “Unplugged Raagam | August 8, 2026”
+
+**0:28–0:30 — CTA:**  
+> “Send this to the person you want beside you.”
+
+### Execution Notes
+
+- Use a clear visual progression: quiet room → first song → crowd chorus.
+- Keep the voiceover intimate, not overly dramatic.
+- Avoid showing only stage footage.
+- Use natural room sound beneath the voiceover during the final chorus.
+- Do not add unsupported claims about crowd size.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “Every singing room has a moment when strangers become one chorus.”
+- **Caption tone:** Emotional and concise.
+- **Hashtag directions:** Live Telugu music; community events; crowd singing; local discovery.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Combines Prompt 2’s crowd-reaction proof with Chinna Viramam’s experience-led emotional framing.
+- **Audience Psychology Trigger:** **Identity resonance** and **share behavior.** Viewers recognise the transition from hesitation to participation and may send it to someone they want to attend with.
+- **Comparable Proof:** Paata Shala’s “500 voices, one emotion” generated 1,021,155 views and 1,691,241 plays; Chinna Viramam’s “Some moments can’t be explained” experience-led post also performed strongly relative to its size.
+- **Instagram Algorithm Signal:** **Watch time completion.** The script creates a clear transformation, encouraging viewers to stay for the moment when the room becomes one voice.
+- **Follower Growth Mechanism:** It communicates a distinctive emotional promise: @unplugged.raagam is where people participate, not merely watch.
+- **Confidence Assessment:** **High Confidence** — the narrative has a clear visual payoff; the main risk is weak footage of the room’s transformation.
+
+---
+
+## SCRIPT 6 — “Love Song or Breakup Song for This Situation?”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 1 expansion from Rank 2, Love V/S Breakup.
+- **Expansion rule used:** New situational debate Reel using the same event theme in a fresh format.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Choosing a love or breakup song for a friend who says “I’m fine.”
+- **Exact angle:** A specific social situation creates a music choice.
+- **Format:** Commentary/comedy Reel.
+- **Intended audience reaction:** Tags, comments, debate.
+- **Language and tone:** Lightly dramatic Telugu-English.
+- **Estimated length:** 15–20 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “Your friend says ‘I’m fine’ after a breakup. Love song aa, breakup song aa?”
+- **Alternate hook:**  
+  “One sentence. Two playlists. Pick the correct Telugu song mood.”
+- **Why this hook was chosen:** It makes Love V/S Breakup relatable through a specific behaviour rather than an event label.
+
+### Full Script
+
+**0:00–0:03 — Visual:**  
+Host looks into camera, serious expression.
+
+**Host:**  
+> “Your friend says, ‘I’m fine’ after a breakup.”
+
+**On-screen text:**  
+> “‘I’m fine’ anta.”
+
+**0:03–0:06 — Visual:**  
+Quick cut to pink/red side.
+
+**Host:**  
+> “Love song play cheyyala?”
+
+**On-screen text:**  
+> “LOVE SONG?”
+
+**0:06–0:09 — Visual:**  
+Hard cut to dark/blue side.
+
+**Host:**  
+> “Or straight ga breakup anthem?”
+
+**On-screen text:**  
+> “BREAKUP SONG?”
+
+**0:09–0:13 — Visual:**  
+Show two hosts pointing to opposite sides.
+
+**Lasya:**  
+> “If they say ‘I’m fine’ three times…”
+
+**Pranidhiiii:**  
+> “…breakup side already won.”
+
+**0:13–0:17 — Visual:**  
+Both hosts laugh or sing a short cleared musical cue.
+
+**Lasya:**  
+> “August 8th, mee side decide cheskondi.”
+
+**On-screen text:**  
+> “Love V/S Breakup | August 8, 2026”
+
+**0:17–0:20 — CTA:**  
+> “Tag the friend who is ‘fine.’”
+
+### Execution Notes
+
+- Keep the humour affectionate.
+- Do not use copyrighted song audio unless cleared.
+- Use split-screen colours to make the contrast instantly readable.
+- Keep the event date after the joke, not before it.
+- Pin a comment: “What does ‘I’m fine’ actually mean?”
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “‘I’m fine’ is not a mood. It is a playlist warning.”
+- **Caption tone:** Short and humorous.
+- **Hashtag directions:** Telugu humour; breakup/love music; friend identity; Telugu event content.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s social-situation-plus-song pattern and the account’s existing Love V/S Breakup concept.
+- **Audience Psychology Trigger:** **Identity resonance** and **debate trigger.** Viewers recognise the “I’m fine” friend and must decide which musical side fits.
+- **Comparable Proof:** @unplugged.raagam’s “When was the last time Bob danced?” post generated 15,815 views and 22,835 plays through a specific cultural prompt; Paadu Bro’s identity-based “tag that one married guy” post generated 84,299 plays.
+- **Instagram Algorithm Signal:** **Share behavior.** The specific friend situation gives viewers a clear reason to send the Reel in a group chat.
+- **Follower Growth Mechanism:** It makes the account feel culturally current and relatable, while connecting humour back to the event’s unique theme.
+- **Confidence Assessment:** **High Confidence** — the social premise is specific and shareable; the main risk is that the joke may overpower the event connection if the final transition is too long.
+
+---
+
+## SCRIPT 7 — “The Audience Chooses the Mood”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 1 expansion from Rank 4, “Which Song Should Be Sung on August 8?”
+- **Expansion rule used:** Alternative audience-participation format using a direct host poll instead of a carousel.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Asking the audience to choose the first emotional mood of the August 8 sing-along.
+- **Exact angle:** The audience decides whether the event opens with a melody or a mass chorus.
+- **Format:** Talking-head Reel with comment poll.
+- **Intended audience reaction:** Comments, Stories participation, repeat visits.
+- **Language and tone:** Energetic, participatory.
+- **Estimated length:** 18–22 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “August 8th first song mood mee hands lo undi.”
+- **Alternate hook:**  
+  “Should we begin with a melody or make the whole room loud?”
+- **Why this hook was chosen:** It gives the viewer immediate influence over the event experience.
+
+### Full Script
+
+**0:00–0:03 — Visual:**  
+Both hosts appear holding two cards: “MELODY” and “MASS.”
+
+**Lasya:**  
+> “August 8th first song mood mee hands lo undi.”
+
+**On-screen text:**  
+> “You choose the opening mood.”
+
+**0:03–0:07 — Visual:**  
+Lasya lifts the “MELODY” card.
+
+**Lasya:**  
+> “Soft melody tho start cheddama?”
+
+**On-screen text:**  
+> “MELODY”
+
+**0:07–0:11 — Visual:**  
+Pranidhiiii lifts the “MASS” card.
+
+**Pranidhiiii:**  
+> “Or first song nunchi whole room loud ga cheddama?”
+
+**On-screen text:**  
+> “MASS CHORUS”
+
+**0:11–0:15 — Visual:**  
+Cut between a calm singing clip and an energetic crowd clip.
+
+**Lasya:**  
+> “Comment M-E-L-O-D-Y…”
+
+**Pranidhiiii:**  
+> “…or M-A-S-S.”
+
+**0:15–0:19 — Visual:**  
+Both hosts point toward the comments.
+
+**Both:**  
+> “Audience decision final!”
+
+**0:19–0:22 — On-screen text:**  
+> “August 8, 2026 | Unplugged Raagam”
+
+### Execution Notes
+
+- Use actual contrasting footage if available.
+- Do not promise the audience decision will determine the final set list unless that is confirmed.
+- If necessary, say “We’ll use your votes to plan the shortlist.”
+- Follow up in Stories with a poll using the same two options.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “First song mood: melody or mass?”
+- **Caption tone:** Short, interactive.
+- **Hashtag directions:** Telugu sing-along; audience voting; live music community; August event discovery.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s song nomination and participation pattern, refined through Prompt 3’s recommendation to separate participation from direct conversion.
+- **Audience Psychology Trigger:** **FOMO** and **social currency.** People feel they are helping shape a live event and will want to check the final outcome.
+- **Comparable Proof:** @unplugged.raagam’s audience testimonial content generated 16 comments from 558 views, showing existing audience willingness to participate; familiar-music posts across the research set show strong discovery potential.
+- **Instagram Algorithm Signal:** **Comment behavior.** The two-option response is quick and low effort.
+- **Follower Growth Mechanism:** It creates a continuing story: vote now, return for the result, then see whether the chosen mood appears at the event.
+- **Confidence Assessment:** **High Confidence** — the decision is simple and naturally connected to the event; the risk is reduced credibility if the vote has no visible follow-up.
+
+---
+
+## SCRIPT 8 — “The Song Memory You Carry”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 2 Rank 6, “A Song for the Person You Still Miss.”
+- **Expansion rule used:** Performance-learning reinforcement from Prompt 3’s Peniviti result, with a fully written host story.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** Singing **Peniviti** as a song connected to a grandmother’s memory.
+- **Exact angle:** A familiar song becomes a shared memory when sung with a room full of people.
+- **Format:** Emotional storytelling Reel.
+- **Intended audience reaction:** Comments sharing personal song memories, saves, shares.
+- **Language and tone:** Intimate Telugu-English.
+- **Estimated length:** 30–35 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “Some songs remind you of a person before they remind you of the movie.”
+- **Alternate hook:**  
+  “For me, Peniviti is not just a song.”
+- **Why this hook was chosen:** It opens the emotional subject directly and connects to a specific, already researched song-memory format.
+
+### Full Script
+
+**0:00–0:04 — Visual:**  
+Host seated or standing quietly, looking into camera.
+
+**Host:**  
+> “Some songs remind you of a person before they remind you of the movie.”
+
+**On-screen text:**  
+> “Some songs are people.”
+
+**0:04–0:10 — Visual:**  
+Close-up of the host, no music under the first sentence.
+
+**Host:**  
+> “For me, Peniviti always takes me back to my grandmother.”
+
+**0:10–0:16 — Visual:**  
+Begin a soft instrumental or cleared performance clip.
+
+**Host:**  
+> “She used to listen when I sang, even when I didn’t sing perfectly.”
+
+**0:16–0:22 — Visual:**  
+Host sings a short cleared section of **Peniviti**.
+
+**Host:**  
+> “And every time I sing it now, it feels like I’m carrying that memory forward.”
+
+**0:22–0:28 — Visual:**  
+Cut to audience or community footage of people listening/singing.
+
+**Host:**  
+> “That is why live singing feels different. One person’s memory becomes everyone’s moment.”
+
+**0:28–0:33 — Visual:**  
+Host looks into camera.
+
+**Host:**  
+> “August 8th, bring the song that carries someone for you.”
+
+**On-screen text:**  
+> “Unplugged Raagam | August 8, 2026”
+
+**0:33–0:35 — CTA:**  
+> “Comment the song that holds a memory.”
+
+### Execution Notes
+
+- The story must be genuine and delivered naturally.
+- Keep the performance short; the story should not delay the musical payoff.
+- Avoid overacting or forced sadness.
+- Use soft lighting and a stable camera.
+- The host should be comfortable sharing the family reference publicly.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “What song takes you back to someone you love?”
+- **Caption tone:** Personal and conversational.
+- **Hashtag directions:** Telugu emotional songs; music memories; personal storytelling; live singing community.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Directly reinforces Prompt 3’s personal-song-story learning from the Peniviti post, which generated 20 comments from 1,517 views.
+- **Audience Psychology Trigger:** **Validation** and **identity resonance.** Viewers recognise that certain songs are attached to people and memories in their own lives.
+- **Comparable Proof:** @unplugged.raagam’s existing Peniviti performance is the strongest comparable: 215 likes, 20 comments, and 1,517 views.
+- **Instagram Algorithm Signal:** **Comment behavior** and **save behavior.** The closing question invites personal stories, while the emotional message encourages saving and sharing.
+- **Follower Growth Mechanism:** It positions the hosts as emotionally credible musicians, creating deeper trust beyond event promotion.
+- **Confidence Assessment:** **Medium-High Confidence** — the format has direct account evidence, but emotional storytelling usually has less predictable mass reach than humour or crowd spectacle.
+
+---
+
+## SCRIPT 9 — “What Happens Before the Singing Starts?”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 1 expansion from Rank 5, event experience.
+- **Expansion rule used:** New behind-the-scenes angle using hosts and preparation instead of repeating the attendee-journey carousel.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** The hosts preparing before an Unplugged Raagam event.
+- **Exact angle:** The audience sees the quiet preparation behind a loud shared chorus.
+- **Format:** Behind-the-scenes Reel.
+- **Intended audience reaction:** Profile visits, connection with hosts, comments about preparation.
+- **Language and tone:** Warm, lightly humorous.
+- **Estimated length:** 20–25 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “The loudest part of Unplugged Raagam starts before anyone enters the room.”
+- **Alternate hook:**  
+  “Before the crowd sings, the hosts panic about one thing.”
+- **Why this hook was chosen:** It creates a behind-the-scenes open loop and leads to a specific preparation moment.
+
+### Full Script
+
+**0:00–0:03 — Visual:**  
+Quick close-ups: microphone check, lyric sheets, host adjusting the mic.
+
+**Voiceover:**  
+> “The loudest part of Unplugged Raagam starts before anyone enters the room.”
+
+**On-screen text:**  
+> “Before the crowd arrives…”
+
+**0:03–0:08 — Visual:**  
+Lasya checks the microphone; Pranidhiiii looks at the song list.
+
+**Pranidhiiii:**  
+> “Mic okay?”
+
+**Lasya:**  
+> “Mic okay. But audience ki favourite song ready aa?”
+
+**0:08–0:13 — Visual:**  
+Show both hosts discussing or humming a familiar Telugu melody.
+
+**Voiceover:**  
+> “Because we are not only preparing a set list…”
+
+**0:13–0:17 — Visual:**  
+Cut to the first audience members entering or the room filling.
+
+**Voiceover:**  
+> “…we are preparing the moment when everyone joins.”
+
+**0:17–0:22 — Visual:**  
+Cut from rehearsal/humming to real crowd singing.
+
+**Voiceover:**  
+> “August 8th, we’ll see which song makes you sing first.”
+
+**On-screen text:**  
+> “Unplugged Raagam | August 8, 2026”
+
+**0:22–0:25 — CTA:**  
+> “Comment the song you want us to rehearse.”
+
+### Execution Notes
+
+- Capture real preparation footage; do not stage panic or conflict.
+- Keep cuts quick and natural.
+- Show both hosts to strengthen recognisability.
+- Use subtitles for the dialogue.
+- The closing song request should not imply confirmation.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “The audience sees the chorus. Here is what happens before it.”
+- **Caption tone:** Behind-the-scenes and conversational.
+- **Hashtag directions:** Music rehearsal; Telugu singers; event BTS; live community music.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s behind-the-scenes and event-personality pattern, combined with the account’s hosts and community promise.
+- **Audience Psychology Trigger:** **Curiosity gap** and **profile visit.** Viewers want to see how the event is prepared and may visit the profile for more host and event content.
+- **Comparable Proof:** @unplugged.raagam’s Warangal behind-the-scenes content generated 4,411 plays; the research also identified location and behind-the-scenes content as useful for giving the account more personality.
+- **Instagram Algorithm Signal:** **Profile visit.** The host interaction and preparation process create interest in the wider event series.
+- **Follower Growth Mechanism:** It introduces the humans behind @unplugged.raagam and creates a recurring preparation series viewers can follow before August 8.
+- **Confidence Assessment:** **Medium-High Confidence** — BTS content builds connection and personality; the main risk is low discovery if the opening preparation footage lacks a strong visual moment.
+
+---
+
+## SCRIPT 10 — “Audience Answers One Question”
+
+### Script Priority Reference
+
+- **Prompt 4:** Tier 3 Rank 8, “The Song That Started the Conversation.”
+- **Expansion rule used:** Performance-learning reinforcement from Prompt 3’s audience testimonial post, redesigned with a specific question and musical proof.
+
+### Script Strategy Snapshot
+
+- **Exact topic:** An attendee answers which song made them sing the loudest.
+- **Exact angle:** One specific audience answer is paired with the real crowd moment.
+- **Format:** Testimonial Reel.
+- **Intended audience reaction:** Trust, comments naming another song, event consideration.
+- **Language and tone:** Natural, warm, unscripted.
+- **Estimated length:** 20–25 seconds.
+
+### Hook
+
+- **Final chosen hook:**  
+  “We asked one question: which song made you sing the loudest?”
+- **Alternate hook:**  
+  “This is the song one attendee could not sit quietly through.”
+- **Why this hook was chosen:** It replaces generic praise with a specific, answerable attendee question.
+
+### Full Script
+
+**0:00–0:03 — Visual:**  
+Show the attendee smiling or reacting, with on-screen question.
+
+**On-screen text:**  
+> “Which song made you sing the loudest?”
+
+**Voiceover:**  
+> “We asked one question after the singing stopped…”
+
+**0:03–0:08 — Visual:**  
+Attendee speaking directly to camera.
+
+**Attendee:**  
+> “For me, it was Peniviti. The moment it started, I forgot I was sitting in the audience.”
+
+**0:08–0:13 — Visual:**  
+Cut to the actual crowd or performance moment connected to the answer.
+
+**Voiceover:**  
+> “And this is exactly what they meant.”
+
+**0:13–0:18 — Visual:**  
+Show audience joining the song.
+
+**Attendee voiceover:**  
+> “Everyone knew the feeling, so everyone started singing.”
+
+**0:18–0:22 — Visual:**  
+Return to attendee.
+
+**Attendee:**  
+> “If you love Telugu songs, you should experience this once.”
+
+**0:22–0:25 — Visual:**  
+Show event/community shot.
+
+**On-screen text:**  
+> “Unplugged Raagam | August 8, 2026”
+
+**Voiceover:**  
+> “Which song would make you sing the loudest?”
+
+### Execution Notes
+
+- Use a real attendee and obtain permission.
+- Do not fabricate the quote.
+- If the attendee did not say these exact words, record the actual answer and use subtitles faithfully.
+- The testimonial must include a specific song or moment, not “It was amazing.”
+- If Peniviti was not the attendee’s actual answer, replace it with the real song named by the attendee.
+
+### Caption and Hashtag Direction
+
+- **Caption opening:** “Generic review kaadu. One song. One real reaction.”
+- **Caption tone:** Trust-building and conversational.
+- **Hashtag directions:** Event testimonials; Telugu music community; audience experiences; local live events.
+
+### VIRAL PROOF BLOCK
+
+- **Pattern Match:** Uses Prompt 2’s community-proof and testimonial pattern, corrected according to Prompt 3’s finding that generic testimonials created comments but limited discovery.
+- **Audience Psychology Trigger:** **Validation** and **save-worthy utility.** Potential attendees receive real reassurance about what participation feels like.
+- **Comparable Proof:** @unplugged.raagam’s audience testimonial post generated 16 comments from 558 views; the account’s Peniviti post generated 20 comments from 1,517 views.
+- **Instagram Algorithm Signal:** **Share behavior.** Someone considering the event can send this to a friend as evidence of the experience.
+- **Follower Growth Mechanism:** Specific attendee proof positions the account as a trusted Telugu music community and reduces uncertainty for new viewers.
+- **Confidence Assessment:** **Medium Confidence** — the format has strong warm-audience evidence but limited cold-discovery proof; the key risk is an unmemorable or generic testimonial answer.
+
+---
+
+# Script Pack Summary
+
+## Recording Priority Order
+
+### 1. Script 1 — “Can You Recognise the Song Before the Crowd Sings?”
+
+Record first because it combines a familiar song, a viewer challenge, crowd audio, and rewatch potential. It is also easy to understand without prior knowledge of the account.
+
+### 2. Script 6 — “Love Song or Breakup Song for This Situation?”
+
+Record second because it repairs the recent Love V/S Breakup packaging problem with a specific, shareable social situation.
+
+### 3. Script 4 — “Finish the Lyric”
+
+Record third because it is low-production, host-led, comment-friendly, and can become a repeatable series.
+
+## Fastest Win
+
+**Script 4 — “Finish the Lyric.”**
+
+It requires minimal production, has one clear viewer action, uses familiar Telugu music, and gives viewers a reason to comment immediately.
+
+## Longest Play
+
+**Script 3 — “Can You Come Alone?”**
+
+This builds long-term niche authority by clearly differentiating Unplugged Raagam as a welcoming Telugu music community rather than only an event promoter.
+
+## Highest Risk, Highest Reward
+
+**Script 8 — “The Song Memory You Carry.”**
+
+It can create the deepest emotional connection and strongest comments, but it depends on genuine delivery, authentic storytelling, and a song that viewers recognise.
+
+## What Not to Do
+
+1. **Do not begin with a logo, date card, registration slide, or venue information.** Start with the song, question, crowd, or emotional premise.
+
+2. **Do not use “Part 1,” “Part 2,” or “stay tuned” as the primary hook.** Every post must make sense to someone discovering the account for the first time.
+
+3. **Do not invent event logistics, song selections, crowd sizes, attendee quotes, or set-list promises.** Add only verified information.
+
+4. **Do not use generic CTAs such as “tag your friends.”** Name the exact friend behaviour or ask for one specific response.
+
+5. **Do not hide the audience.** Whenever crowd footage is used, show real participation—singing, reacting, laughing, joining, or connecting—not only the performers.
+
+# SCRIPT 11 — “Concert or Singalong? Know Which Experience You’re Walking Into”
+
+## Script Priority Reference
+
+- **Prompt 4:** Adjacent opportunity within the Telugu live-music community and event-objection cluster.
+- **Expansion rule used:** Reinforces Prompt 3’s learning that audience participation and community-focused content perform better than generic event promotion. Converts the common uncertainty—“What if I don’t know every song?”—into a saveable comparison carousel.
+- **Carousel quota status:** This script brings the pack to at least **3 carousel/comparison-carousel scripts**.
+
+## Script Strategy Snapshot
+
+- **Exact topic:** The difference between attending a conventional concert and attending an unplugged Telugu singalong.
+- **Exact angle:** A comparison that removes the fear of not knowing every song or feeling out of place.
+- **Exact format:** **Comparison-carousel**
+- **Intended audience reaction:** “This is exactly what I was unsure about,” followed by a save or share with someone who is hesitant to attend.
+- **Language and tone choice:** Hinglish with simple English comparison labels. This matches the community’s conversational style and keeps the carousel accessible to Telugu-speaking viewers and Telugu-music fans who communicate online in English.
+- **Estimated length:** 8 slides.
+
+---
+
+## Hook
+
+### Final Chosen Hook — Slide 1
+
+> **Concert ki jaate ho… ya gaane ke andar chale jaate ho?**  
+>   
+> **Conventional concert vs Telugu singalong — the real difference.**
+
+### Alternate Hook Option
+
+> **“Mujhe saare songs nahi aate…”**  
+>   
+> **That is exactly why a singalong feels different from a normal concert.**
+
+### Why This Hook Was Chosen
+
+It opens the exact comparison immediately: a conventional concert versus a participatory Telugu singalong. The first line creates a memorable contrast, while the second line addresses a real audience hesitation without promising an experience the event cannot deliver.
+
+---
+
+## Full Slide-by-Slide Copy
+
+### Slide 1 — Cover
+
+**Large text:**
+
+> **CONCERT KI JAATE HO…**  
+> **YA GAANE KE ANDAR CHALE JAATE HO?**
+
+**Smaller text:**
+
+> Conventional concert vs Telugu singalong  
+> The real difference
+
+**Footer:**
+
+> Swipe before your next live-music plan.
+
+---
+
+### Slide 2 — The Main Difference
+
+**Heading:**
+
+> **1. You are not only watching**
+
+**Left column: CONVENTIONAL CONCERT**
+
+> You watch the artist perform.
+
+**Right column: TELUGU SINGALONG**
+
+> You become part of the sound.
+
+**Bottom line:**
+
+> The audience is not background noise.  
+> The audience is part of the experience.
+
+---
+
+### Slide 3 — What If You Don’t Know Every Song?
+
+**Heading:**
+
+> **2. You do not need to know every song**
+
+**Copy:**
+
+> You may not know every lyric.  
+> You may not sing every line.  
+> You may simply recognise the melody, listen to the people around you, and join when a familiar song begins.
+
+**Bottom emphasis:**
+
+> You are allowed to come for the songs you know  
+> and discover new favourites along the way.
+
+---
+
+### Slide 4 — The Emotional Difference
+
+**Heading:**
+
+> **3. A song becomes a shared memory**
+
+**Left column: CONVENTIONAL CONCERT**
+
+> “That was a beautiful performance.”
+
+**Right column: TELUGU SINGALONG**
+
+> “Everyone around me knew that song too.”
+
+**Bottom line:**
+
+> One is something you watch.  
+> The other is something you remember with people.
+
+---
+
+### Slide 5 — The Crowd Feels Different
+
+**Heading:**
+
+> **4. The crowd is part of the conversation**
+
+**Copy:**
+
+> Someone may start a lyric.  
+> Another person may join from the next row.  
+> A familiar chorus may turn into the loudest moment of the evening.
+
+**Bottom emphasis:**
+
+> That is not people interrupting the music.  
+> That is people connecting through it.
+
+---
+
+### Slide 6 — Who Will Enjoy This Most?
+
+**Heading:**
+
+> **A Telugu singalong is for you if…**
+
+**Copy:**
+
+> You grew up hearing Telugu songs at home.  
+> You miss singing with people who understand the references.  
+> You want a live-music experience that feels warm, not intimidating.  
+> You know some songs by heart—even if you do not know every song.
+
+**Bottom text:**
+
+> You do not have to be the loudest person in the room.
+
+---
+
+### Slide 7 — The Honest Expectation
+
+**Heading:**
+
+> **What it is not**
+
+**Copy:**
+
+> It is not a competition to prove how many lyrics you know.  
+> It is not a requirement to sing every song.  
+> It is not about performing for the people around you.
+
+**Large closing line:**
+
+> It is about being present when a familiar song brings everyone together.
+
+---
+
+### Slide 8 — Final Payoff and CTA
+
+**Heading:**
+
+> **So, concert or singalong?**
+
+**Copy:**
+
+> If you want to sit back and only watch, choose a conventional concert.  
+>   
+> If you want to hear a Telugu song and feel the entire room recognise it with you, choose the singalong.
+
+**Final question:**
+
+> Which Telugu song would make you join the room immediately?
+
+**Small footer:**
+
+> Comment one song. No explanations needed.
+
+---
+
+## Execution Notes
+
+- Use a clean two-column comparison design for Slides 2 and 4.
+- Keep the left column in a neutral colour and the right column in the brand colour so the comparison is understood instantly.
+- Use one strong background image on Slide 1: a real audience moment with visible participation, not a stage-only photograph.
+- Use real crowd imagery on Slides 5 and 6 if available. If not, use simple typography rather than generic stock images.
+- Make “You do not need to know every song” visually prominent because it addresses the main hesitation.
+- Keep each slide readable in under two seconds. Avoid placing the entire paragraph in one small text block.
+- Delivery tone is not applicable; this is a visual-first carousel. If using a trending audio track, choose warm, recognisable Telugu instrumental music and keep it secondary to the copy.
+- Do not turn the carousel into an event advertisement.
+- Do not add unverified claims about the venue, audience size, set list, date, or performer.
+- Do not use a generic final slide such as “Follow for more.” The song-comment prompt is more specific and conversation-driven.
+
+---
+
+## Caption and Hashtag Direction
+
+### Suggested Caption Opening Line
+
+> **A singalong is not a concert where everyone is expected to know every word.**
+
+### Caption
+
+> It is a room where one familiar Telugu song can make strangers feel connected.  
+>   
+> You can come knowing every lyric, one lyric, or simply the melody you grew up hearing at home. There is space for all three.  
+>   
+> Which Telugu song would make you sing without thinking?
+
+### Caption Tone
+
+Conversational, reassuring, and community-focused. Keep it informative enough to remove hesitation, but avoid repeating every slide word for word.
+
+### Hashtag Directions
+
+- Telugu music and Telugu culture communities  
+- Live acoustic and unplugged music  
+- Telugu nostalgia and childhood music memories  
+- Local live-event discovery  
+- Medium-sized regional music hashtags rather than only broad entertainment hashtags
+
+---
+
+# VIRAL PROOF BLOCK
+
+### Pattern Match
+
+This uses the researched **comparison-and-objection-removal pattern**: place two familiar experiences side by side, then resolve a specific audience uncertainty. Instead of saying that the event is “fun” or “different,” the carousel explains exactly how a conventional concert differs from a participatory Telugu singalong.
+
+It also reinforces the community-proof pattern identified in the existing content: the audience is shown as part of the experience rather than treated as passive viewers.
+
+### Audience Psychology Trigger
+
+**Identity resonance, validation, and save-worthy utility.**
+
+The line “You do not need to know every song” validates viewers who may feel culturally connected to Telugu music but are worried they will not recognise the entire set list. The comparison lets viewers identify themselves as either someone who prefers watching or someone who wants to participate. The practical explanation is also saveable for someone deciding whether this type of event is suitable for them or a friend.
+
+### Comparable Proof
+
+A comparable example from the Prompt 2 research is **@unplugged.raagam’s Peniviti content**, which generated audience discussion around a specific Telugu song and the shared reaction it created. This carousel uses the same proven emotional ingredient—recognition of a familiar song—but makes the audience benefit explicit and packages it in a swipeable comparison format.
+
+### Instagram Algorithm Signal
+
+**Save behavior and share behavior.**
+
+The carousel answers a practical question—what is the difference between these two experiences?—which makes it useful to save before choosing an event or sending to a friend who is unsure about attending. The “Which Telugu song would make you join?” ending also creates a low-effort comment prompt with one clear answer rather than a vague request for opinions.
+
+### Follower Growth Mechanism
+
+This positions the creator as more than an event promoter. It signals that the account understands the emotional and cultural reasons people connect with Telugu music. Viewers who identify with missing Telugu music, wanting a welcoming community, or looking for live experiences are likely to follow because the account appears to understand the audience they belong to and will provide more content around that identity.
+
+### Confidence Assessment
+
+**Medium-High Confidence** — the script combines a proven community/music-recognition angle with a clear comparison and objection-removal structure; the main risk is that overly dense slide design could reduce completion and saves.
+
+---
+
+# Updated Script Pack Summary
+
+## Recording Priority Order
+
+### 1. Script 1 — “Can You Recognise the Song Before the Crowd Sings?”
+
+Record first because it combines a familiar song, a viewer challenge, crowd audio, and rewatch potential. It is easy for a new viewer to understand without prior knowledge of the account.
+
+### 2. Script 6 — “Love Song or Breakup Song for This Situation?”
+
+Record second because it turns a familiar music debate into a specific, shareable social situation and creates a natural comment decision.
+
+### 3. Script 11 — “Concert or Singalong? Know Which Experience You’re Walking Into”
+
+Record third because it removes a real attendance objection, works without complicated production, and can be shared with someone who is unsure whether a Telugu singalong is for them.
+
+## Fastest Win
+
+**Script 4 — “Finish the Lyric.”**
+
+It requires minimal production, has one clear viewer action, uses familiar Telugu music, and gives viewers a direct reason to comment immediately.
+
+## Longest Play
+
+**Script 3 — “Can You Come Alone?”**
+
+This builds long-term niche authority by differentiating Unplugged Raagam as a welcoming Telugu music community rather than only an event promoter.
+
+## Highest Risk, Highest Reward
+
+**Script 8 — “The Song Memory You Carry.”**
+
+It can create the deepest emotional connection and strongest comments, but it depends on genuine delivery, authentic storytelling, and a song that viewers recognise.
+
+## Carousel Quota Status
+
+The pack now contains at least **three carousel or comparison-carousel scripts**, including the newly added **Script 11**. This addition is the only new script in this update.
+
+## What Not to Do
+
+1. **Do not begin with a logo, date card, registration slide, or venue information.** Start with the song, question, crowd, or emotional premise.
+
+2. **Do not use “Part 1,” “Part 2,” or “stay tuned” as the primary hook.** Every post must make sense to someone discovering the account for the first time.
+
+3. **Do not invent event logistics, song selections, crowd sizes, attendee quotes, or set-list promises.** Add only verified information.
+
+4. **Do not use generic CTAs such as “tag your friends.”** Name the exact friend behaviour or ask for one specific response.
+
+5. **Do not hide the audience.** Whenever crowd footage is used, show real participation—singing, reacting, laughing, joining, or connecting—not only the performers.
+
+# Script 12 — “You Don’t Have to Be a Good Singer to Join a Telugu Singalong”
+
+## Script Priority Reference
+
+- **Expansion rule used:** Adjacent high-priority objection-removal angle based on the reinforced community, participation, and audience-inclusion patterns.
+- **Format:** Comparison-carousel
+- **Purpose:** Convert viewers who love Telugu music but hesitate to attend because they feel they cannot sing confidently.
+
+---
+
+## Script Strategy Snapshot
+
+- **Exact topic:** Why singing ability does not determine whether someone will enjoy a Telugu singalong.
+- **Exact angle:** Compare the fear of “I cannot sing” with what actually happens in a welcoming group singalong.
+- **Intended audience reaction:** “That sounds comfortable enough for me to attend.”
+- **Language and tone choice:** English slide copy with Telugu cultural references; warm, reassuring, and conversational. This keeps the message accessible to new viewers while preserving the account’s Telugu music identity.
+- **Estimated length:** 8 slides
+
+---
+
+## Hook
+
+### Final Chosen Hook
+
+> **Think you need to be a good singer to join a Telugu singalong? You don’t.**
+
+### Alternate Hook Option
+
+> **A Telugu singalong is not an audition—and nobody is waiting for you to sing perfectly.**
+
+### Why This Hook Was Chosen
+
+It opens the exact objection the carousel resolves: fear of not being musically talented enough. The contrast between an “audition” and a singalong immediately reduces pressure and creates curiosity about what the experience is actually like.
+
+---
+
+## Full Carousel Copy
+
+### Slide 1 — Cover
+
+**Think you need to be a good singer to join a Telugu singalong?**
+
+**You don’t.**
+
+Small footer text:
+
+**Here’s what actually happens.**
+
+---
+
+### Slide 2
+
+**The fear:**
+
+“I won’t know every song.”
+
+**The reality:**
+
+You do not need to know every word to recognise the melody, join one familiar line, or enjoy hearing everyone else sing.
+
+---
+
+### Slide 3
+
+**The fear:**
+
+“My voice is not good enough.”
+
+**The reality:**
+
+A group singalong is not built around one perfect voice.
+
+It works because many voices share the same song.
+
+---
+
+### Slide 4
+
+**The fear:**
+
+“I’ll feel awkward if I come alone.”
+
+**The reality:**
+
+The song gives people an easy way to connect.
+
+You can start by listening, smile at someone during a familiar lyric, and join when you feel comfortable.
+
+---
+
+### Slide 5
+
+**The fear:**
+
+“I need to be loud and energetic the whole time.”
+
+**The reality:**
+
+You can sing every word, sing only the chorus, hum along, or simply listen.
+
+There is no single correct way to participate.
+
+---
+
+### Slide 6 — Comparison
+
+**Concert mindset:**
+
+“Watch the performer.”
+
+**Singalong mindset:**
+
+“Share the song.”
+
+One is centred on the stage.
+
+The other makes the room part of the music.
+
+---
+
+### Slide 7
+
+**The easiest way to participate:**
+
+1. Wait for a song you recognise.  
+2. Join the chorus.  
+3. Look around and notice that nobody is judging your voice.  
+4. Leave with one song you want to hear again.
+
+---
+
+### Slide 8 — Conclusion and CTA
+
+**You do not need a perfect voice.**
+
+You only need one Telugu song that makes you want to sing.
+
+**What is that song for you?**
+
+Comment the title.
+
+---
+
+## Execution Notes
+
+- Use a clean, high-contrast design with one main idea per slide.
+- Keep the first slide visually simple: large text, no logo competing with the hook.
+- Use real crowd or audience-participation imagery on Slides 4–6 if available.
+- If using photos, show people listening, smiling, singing, or connecting—not only the performer.
+- Highlight the repeated phrase **“The fear / The reality”** in consistent colours so viewers understand the structure immediately.
+- Delivery tone through design: calm, welcoming, and reassuring.
+- Keep each slide on screen long enough to read comfortably, especially Slides 6 and 7.
+- Do not overcrowd the slides with event details, registration information, or multiple calls to action.
+- Do not make the audience feel criticised for being nervous. The goal is to remove pressure, not shame hesitation.
+
+---
+
+## Caption and Hashtag Direction
+
+### Suggested Caption Opening Line
+
+> **You do not need a perfect voice to belong in a Telugu singalong.**
+
+### Caption
+
+> You can know every lyric, only know the chorus, hum along, or simply listen until a familiar song pulls you in.  
+>   
+> The point is not to prove that you can sing. The point is to share a song that already means something to you.  
+>   
+> Which Telugu song would make you join the chorus?
+
+### Caption Tone
+
+Warm, conversational, and reassuring. Keep it short enough to support the carousel without repeating every slide.
+
+### Hashtag Directions
+
+- Telugu music and Telugu culture communities
+- Telugu nostalgia and childhood music memories
+- Live acoustic and unplugged music
+- Regional music discovery
+- Medium-sized event and community hashtags
+
+---
+
+# VIRAL PROOF BLOCK
+
+### Pattern Match
+
+This uses the researched **objection-removal and expectation-reset pattern**. It names four specific worries— not knowing every song, having an imperfect voice, coming alone, and not being energetic enough—then contrasts each fear with the actual low-pressure experience.
+
+It also reinforces the researched **participation-over-performance pattern**, positioning the audience as part of the musical experience rather than passive spectators.
+
+### Audience Psychology Trigger
+
+**Validation, identity resonance, and save-worthy utility.**
+
+The carousel validates viewers who love Telugu music but may feel socially or musically insecure in a live setting. It allows different types of viewers to identify themselves: the lyric-knower, the quiet listener, the chorus singer, and the person attending alone.
+
+The practical four-step participation guide gives hesitant viewers something concrete to remember before attending, making the post useful enough to save or send to a friend.
+
+### Comparable Proof
+
+A comparable example from the Prompt 2 research is **@unplugged.raagam’s Peniviti content**, which used recognition of a familiar Telugu song to create shared emotional participation and audience discussion.
+
+This carousel applies the same familiar-song and community-response ingredient, but expands it around a specific attendance barrier: the fear of not being a “good enough” singer or participant.
+
+### Instagram Algorithm Signal
+
+**Save behavior and share behavior.**
+
+The four-step participation guide gives the carousel practical revisit value. A viewer may save it before attending a singalong or share it with a friend who says, “I do not know if I should come.”
+
+The repeated fear-versus-reality structure also encourages completion because each slide resolves a different concern before the final invitation to name a song.
+
+### Follower Growth Mechanism
+
+This positions the creator as an account that understands the emotional experience around Telugu music—not merely an account that announces events.
+
+Viewers who feel represented by the message are likely to follow for more culturally specific, welcoming music content. It also creates a clear niche identity: Telugu music experiences designed for participation, nostalgia, and community.
+
+### Confidence Assessment
+
+**High Confidence** — the script directly addresses a common attendance objection, uses a proven community/music-recognition pattern, and provides a clear saveable framework; the main risk is weak performance if the design feels like generic event promotion instead of a genuinely welcoming message.
+
+---
+
+# Updated Script Pack Summary
+
+## Carousel Quota Status
+
+This addition brings the pack to **at least three carousel or comparison-carousel scripts**, satisfying the required carousel quota.
+
+## Recording Priority Order
+
+### 1. Script 1 — “Can You Recognise the Song Before the Crowd Sings?”
+
+Record first because it combines a familiar-song challenge, crowd participation, and strong rewatch potential.
+
+### 2. Script 6 — “Love Song or Breakup Song for This Situation?”
+
+Record second because the debate format gives viewers an immediate reason to comment and share with someone who would choose the opposite answer.
+
+### 3. Script 12 — “You Don’t Have to Be a Good Singer to Join a Telugu Singalong”
+
+Record third because it removes a high-friction attendance objection while clearly positioning the account as welcoming and community-led.
+
+## Fastest Win
+
+**Script 4 — “Finish the Lyric.”**
+
+It has the lowest production complexity, a clear viewer action, and an immediate Telugu music recognition trigger.
+
+## Longest Play
+
+**Script 3 — “Can You Come Alone?”**
+
+This builds long-term follower growth by establishing the account as a trusted Telugu music community rather than only an event-promotion page.
+
+## Highest Risk, Highest Reward
+
+**Script 8 — “The Song Memory You Carry.”**
+
+Its emotional upside is strongest, but it depends on authentic storytelling, careful pacing, and a song that creates genuine personal recognition.
+
+## What Not to Do
+
+1. Do not open with a logo, event date, venue, or registration slide.
+2. Do not make the carousel sound like an advertisement before establishing the audience problem.
+3. Do not use generic “tag your friends” language; ask for one specific Telugu song or reaction.
+4. Do not use crowd footage that looks staged or disconnected from the message.
+5. Do not overcrowd slides with long paragraphs, multiple fonts, or too many event details.

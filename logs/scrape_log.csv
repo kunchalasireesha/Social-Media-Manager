@@ -1,0 +1,5 @@
+date,username,role,json_path,scraped_at
+2026-08-01,unplugged.raagam,subject,dna/subject/unplugged.raagam.json,2026-08-01T02:00:05
+2026-08-01,chinna_viramam,competitors,dna/competitors/chinna_viramam.json,2026-08-01T02:01:35
+2026-08-01,paadu_bro_official,competitors,dna/competitors/paadu_bro_official.json,2026-08-01T02:00:41
+2026-08-01,paata_shala,competitors,dna/competitors/paata_shala.json,2026-08-01T02:01:06

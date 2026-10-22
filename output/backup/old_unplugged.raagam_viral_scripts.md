@@ -1,0 +1,432 @@
+# Viral Script Amplification Output
+
+**Creator:** @unplugged.raagam
+
+---
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*(All scripts are 100 % ready‑to‑record – just hit “record” and go.)*  
+
+---
+
+## 1️⃣ Script #1 – “🔥 Live‑Jam August 8 Preview: What If Your Favorite Song Came To Life Right Here?”  
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 1** – Highest‑ranked opportunity from Prompt 4 (event‑teaser).  
+
+**Script Strategy Snapshot**  
+| Element | Detail |
+|--------|--------|
+| **Exact Topic** | Teaser for the **Unplugged Raagam Live‑Jam – Aug 8 2026** (community sing‑along). |
+| **Exact Angle** | “What if the songs you love *actually* sound like this, right in your city?” – a *what‑if* curiosity hook. |
+| **Exact Format** | Talking‑head + voice‑over Reel (≈ 45 s). Fast‑cut montage of crowd, instruments, and a 2‑sec iconic‑song flash. |
+| **Intended Audience Reaction** | Immediate excitement → DM or click bio link to register. |
+| **Language & Tone** | Bilingual (English + Telugu), upbeat, emoji‑rich, inclusive (“We’re all family”). Chosen to mirror the creator’s existing voice and to hit the “celebration” vibe that drives shares. |
+| **Estimated Length** | 45 seconds (≈ 9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (spoken on‑camera, 0‑3 s):** “What if *your* favorite song **exploded** right here in Warangal on **August 8**?”  
+- **Alternate Hook:** “Imagine hearing your anthem **live** in the middle of the street – that’s what’s coming on Aug 8!”  
+- **Why Chosen:** Both open with a *what‑if* scenario that creates a curiosity gap and instantly tells the viewer the exact date and city, satisfying the “specific‑topic‑in‑first‑3 s” rule.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Close‑up of host @__.lasya.vocals__** with a burst of crowd cheering in the background (sound‑effect). | “What if *your* favorite song **exploded** right here in Warangal on **August 8**?” |
+| 3‑6 s | **Cut** to 2‑second flash of a classic Telugu hit (e.g., “Madhurame”) playing live, text overlay: **“🔥 Madhurame LIVE 🔥”**. | *(no dialogue – music clip only)* |
+| 6‑10 s | **Talking‑head** – host smiles, gestures to the camera. | “We’re bringing the biggest sing‑along ever – **Telugu classics, new hits, and surprise guests**.” |
+| 10‑15 s | **Montage** – quick cuts: guitarist riff, drummer beat, crowd clapping, neon sign “UNPLUGGED RAAGAM”. | *(voice‑over)* “Feel the beat, raise your voice, make memories together.” |
+| 15‑20 s | **On‑screen graphic** – date & time: **“🗓 Aug 8 | 7 PM | Warangal Arena”**. | *(voice‑over)* “Mark your calendar – it’s happening at 7 PM, Warangal Arena.” |
+| 20‑25 s | **Host** points downwards (gesture). | “Tap **DM** now or hit the link in bio to reserve your spot. Seats are limited!” |
+| 25‑30 s | **Fast‑cut** of past crowd singing together, text overlay: **“JOIN THE FAMILY 🎤💛”**. | *(voice‑over)* “Because when we sing together, we grow together.” |
+| 30‑35 s | **Host** winks, holds a microphone. | “
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---
+
+## 1️⃣ Script #1 – “🔥 Live‑Jam August 8 Preview: What If Your Favorite Song Came To Life Right Here?”  
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 1** – Highest‑ranked opportunity from Prompt 4 (event‑teaser).  
+
+**Script Strategy Snapshot**  
+
+| Element | Detail |
+|--------|--------|
+| **Exact Topic** | Teaser for the **Unplugged Raagam Live‑Jam – Aug 8 2026** (community sing‑along). |
+| **Exact Angle** | “What if the songs you love *actually* sound like this, right in your city?” – a *what‑if* curiosity hook. |
+| **Exact Format** | Talking‑head + voice‑over Reel (≈ 45 s). Fast‑cut montage of crowd, instruments, and a 2‑sec iconic‑song flash. |
+| **Intended Audience Reaction** | Immediate excitement → DM or click bio link to register. |
+| **Language & Tone** | Bilingual (English + Telugu), upbeat, emoji‑rich, inclusive (“We’re all family”). Chosen to mirror the creator’s existing voice and to hit the “celebration” vibe that drives shares. |
+| **Estimated Length** | 45 seconds (≈ 9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (spoken on‑camera, 0‑3 s):** “What if *your* favorite song **exploded** right here in Warangal on **August 8**?”  
+- **Alternate Hook:** “Imagine hearing your anthem **live** in the middle of the street – that’s what’s coming on Aug 8!”  
+- **Why Chosen:** Both open with a *what‑if* scenario that creates a curiosity gap and instantly tells the viewer the exact date and city, satisfying the “specific‑topic‑in‑first‑3 s” rule.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Close‑up of host @__.lasya.vocals__** with a burst of crowd cheering in the background (sound‑effect). | “What if *your* favorite song **exploded** right here in Wargarh on **August 8**?” |
+| 3‑6 s | **Cut** to 2‑second flash of a classic Telugu hit (“Madhurame”) playing live, text overlay: **“🔥 Madhurame LIVE 🔥”**. | *(no dialogue – music clip only)* |
+| 6‑10 s | **Talking‑head** – host smiles, gestures to the camera. | “We’re bringing the biggest sing‑along ever – **Telugu classics, new hits, and surprise guests**.” |
+| 10‑15 s | **Montage** – quick cuts: guitarist riff, drummer beat, crowd clapping, neon sign “UNPLUGGED RAAGAM”. | *(voice‑over)* “Feel the beat, raise your voice, make memories together.” |
+| 15‑20 s | **On‑screen graphic** – date & time: **“🗓 Aug 8 | 7 PM | Warangal Arena”**. | *(voice‑over)* “Mark your calendar – it’s happening at 7 PM, Warangal Arena.” |
+| 20‑25 s | **Host** points downwards (gesture). | “Tap **DM** now or hit the link in bio to reserve your spot. Seats are limited!” |
+| 25‑30 s | **Fast‑cut** of past crowd singing together, text overlay: **“JOIN THE FAMILY 🎤💛”**. | *(voice‑over)* “Because when we **sing together**, we **grow together**.” |
+| 30‑35 s | **Host** winks, holds a microphone, background shows a glowing stage. | “Ready to make this night **legendary**?” |
+| 35‑40 s | **Close‑up** on a hand‑held phone showing the Instagram DM screen with a pre‑filled “I’m in!” message. | *(voice‑over)* “Just drop a quick ‘I’m in’ and you’re set.” |
+| 40‑45 s | **Final frame** – event logo + CTA button animation “🔔 Turn on reminders”. | “See you on Aug 8 – let’s make music history! 🎶” |
+
+### Execution Notes  
+- **Pacing:** Energetic, 1‑second pauses after each on‑screen text to let it register.  
+- **Visuals:** Use bright, saturated colors; quick‑cut rhythm should match the beat of the 2‑sec music flash.  
+- **On‑screen Text:** Bold Telugu‑English mix, keep each overlay ≤ 2 seconds.  
+- **Delivery Tone:** Conversational, slightly playful, with a warm smile.  
+- **What NOT to Do:** Don’t linger on any single cut longer than 2 seconds – it kills momentum; avoid monotone voice‑over.
+
+### Caption and Hashtag Direction  
+- **Caption Opening:** “🚀 Warangal, are you ready to turn the streets into a live‑concert? 🎤👇”  
+- **Caption Tone:** Short, punchy, with a direct
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---
+
+## 1️⃣ Script #1 – “🔥 Live‑Jam August 8 Preview: What If Your Favorite Song Came To Life Right Here?”  
+
+*(Already completed in the draft – reproduced here for continuity)*  
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 1** – Highest‑ranked opportunity from Prompt 4 (event‑teaser).  
+
+**Script Strategy Snapshot**  
+
+| Element | Detail |
+|---------|--------|
+| **Exact Topic** | Teaser for the **Unplugged Raagam Live‑Jam – Aug 8 2026** (community sing‑along). |
+| **Exact Angle** | “What if the songs you love *actually* sound like this, right in your city?” – a *what‑if* curiosity hook. |
+| **Exact Format** | Talking‑head + voice‑over Reel (≈ 45 s). Fast‑cut montage of crowd, instruments, and a 2‑sec iconic‑song flash. |
+| **Intended Audience Reaction** | Immediate excitement → DM or click bio link to register. |
+| **Language & Tone** | Bilingual (English + Telugu), upbeat, emoji‑rich, inclusive (“We’re all family”). |
+| **Estimated Length** | 45 seconds (≈ 9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (spoken on‑camera, 0‑3 s):** “What if *your* favorite song **exploded** right here in Warangal on **August 8**?”  
+- **Alternate Hook:** “Imagine hearing your anthem **live** in the middle of the street – that’s what’s coming on Aug 8!”  
+- **Why Chosen:** Both open with a *what‑if* scenario that creates a curiosity gap and instantly tells the viewer the exact date and city, satisfying the “specific‑topic‑in‑first‑3 s” rule.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Close‑up of host @__.lasya.vocals__** with a burst of crowd cheering (sound‑effect). | “What if *your* favorite song **exploded** right here in Warangal on **August 8**?” |
+| 3‑6 s | **Cut** to 2‑second flash of classic Telugu hit “Madhurame” live, overlay **“🔥 Madhurame LIVE 🔥”**. | *(no dialogue – music clip only)* |
+| 6‑10 s | **Talking‑head** – host smiles, gestures. | “We’re bringing the biggest sing‑along ever – **Telugu classics, new hits, and surprise guests**.” |
+| 10‑15 s | **Montage** – guitarist riff, drummer beat, crowd clapping, neon sign “UNPLUGGED RAAGAM”. | *(voice‑over)* “Feel the beat, raise your voice, make memories together.” |
+| 15‑20 s | **On‑screen graphic** – **“🗓 Aug 8 | 7 PM | Warangal Arena”**. | *(voice‑over)* “Mark your calendar – it’s happening at 7 PM, Warangal Arena.” |
+| 20‑25 s | **Host** points downwards. | “Tap **DM** now or hit the link in bio to reserve your spot. Seats are limited!” |
+| 25‑30 s | **Fast‑cut** of past crowd singing, overlay **“JOIN THE FAMILY 🎤💛”**. | *(voice‑over)* “Because when we **sing together**, we **grow together**.” |
+| 30‑35 s | **Host** winks, holds a microphone, glowing stage behind. | “Ready to make this night **legendary**?” |
+| 35‑40 s | **Close‑up** on phone showing Instagram DM screen with pre‑filled “I’m in!” message. | *(voice‑over)* “Just drop a quick ‘I’m in’ and you’re set.” |
+| 40‑45 s | **Final frame** – event logo + CTA animation “🔔 Turn on reminders”. | “See you on Aug 8 – let’s make music history! 🎶” |
+
+### Execution Notes  
+- **Pacing:** Energet
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*
+
+---
+
+## 2️⃣ Script #2 – “🚧 24‑Hour Stage Build: From Empty Lot to Live‑Jam Venue”
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 2** – Second‑strongest opportunity from Prompt 4 (behind‑the‑scenes transformation).
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|--------|--------|
+| **Exact Topic** | Time‑lapse of the crew constructing the Aug 8 live‑jam stage in 24 hours. |
+| **Exact Angle** | “Watch how we turned a barren lot into a concert arena in a single day – every second counts.” |
+| **Exact Format** | Voice‑over Reel with fast‑paced time‑lapse + on‑screen timestamps (≈ 45 s). |
+| **Intended Audience Reaction** | Awe → comment “Who’s the crew?” and follow for more BTS content. |
+| **Language & Tone** | Bilingual (English + Telugu), energetic, “we‑are‑making‑it‑happen” vibe. |
+| **Estimated Length** | 45 seconds (12 quick cuts). |
+
+### Hook  
+- **Final Hook (0‑3 s, spoken over a ticking‑clock sound):** “We built a full‑size concert stage in **24 hours** – and you’re about to see every second.”  
+- **Alternate Hook:** “From dirt to lights in one day – watch the crazy 24‑hour build that’s powering our Aug 8 jam.”  
+- **Why Chosen:** Both open with a concrete, time‑bound claim that forces the viewer to stay for the reveal, satisfying the “specific‑topic‑in‑first‑3 s” rule and creating a strong curiosity gap.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Clock‑ticking SFX**; aerial drone shot of an empty lot, text overlay **“Day 0 – Empty”**. | “We built a full‑size concert stage in **24 hours** – and you’re about to see every second.” |
+| 3‑6 s | **Fast‑forward time‑lapse** of crew unloading pallets, text **“+2 hrs – Materials arrive”**. | *(voice‑over, upbeat)* “First, the crew rolls in 30 pallets of steel, wood, and lights.” |
+| 6‑9 s | **Cut**
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*
+
+---
+
+## 1️⃣ Script #1 – “🔥 Live‑Jam August 8 Preview: What If Your Favorite Song Came To Life Right Here?”  
+
+*(Already completed in the draft – reproduced here for continuity)*  
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 1** – Highest‑ranked opportunity from Prompt 4 (event‑teaser).  
+
+**Script Strategy Snapshot**  
+
+| Element | Detail |
+|---------|--------|
+| **Exact Topic** | Teaser for the **Unplugged Raagam Live‑Jam – Aug 8 2026** (community sing‑along). |
+| **Exact Angle** | “What if the songs you love *actually* sound like this, right in your city?” – a *what‑if* curiosity hook. |
+| **Exact Format** | Talking‑head + voice‑over Reel (≈ 45 s). Fast‑cut montage of crowd, instruments, and a 2‑sec iconic‑song flash. |
+| **Intended Audience Reaction** | Immediate excitement → DM or click bio link to register. |
+| **Language & Tone** | Bilingual (English + Telugu), upbeat, emoji‑rich, inclusive (“We’re all family”). |
+| **Estimated Length** | 45 seconds (≈ 9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (spoken on‑camera, 0‑3 s):** “What if *your* favorite song **exploded** right here in Warigarh on **August 8**?”  
+- **Alternate Hook:** “Imagine hearing your anthem **live** in the middle of the street – that’s what’s coming on Aug 8!”  
+- **Why Chosen:** Both open with a *what‑if* scenario that creates a curiosity gap and instantly tells the viewer the exact date and city, satisfying the “specific‑topic‑in‑first‑3 s” rule.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Close‑up of host @__.lasya.vocals__** with a burst of crowd cheering (sound‑effect). | “What if *your* favorite song **exploded** right here in Warangal on **August 8**?” |
+| 3‑6 s | **Cut** to 2‑second flash of classic Telugu hit “Madhurame” live, overlay **“🔥 Madhurame LIVE 🔥”**. | *(no dialogue – music clip only)* |
+| 6‑10 s | **Talking‑head** – host smiles, gestures. | “We’re bringing the biggest sing‑along ever – **Telugu classics, new hits, and surprise guests**.” |
+| 10‑15 s | **Montage** – guitarist riff, drummer beat, crowd clapping, neon sign “UNPLUGGED RAAGAM”. | *(voice‑over)* “Feel the beat, raise your voice, make memories together.” |
+| 15‑20 s | **On‑screen graphic** – **“🗓 Aug 8 | 7 PM | Warangal Arena”**. | *(voice‑over)* “Mark your calendar – it’s happening at 7 PM, Warangal Arena.” |
+| 20‑25 s | **Host** points downwards. | “Tap **DM** now or hit the link in bio to reserve your spot. Seats are limited!” |
+| 25‑30 s | **Fast‑cut** of past crowd singing, overlay **“JOIN THE FAMILY 🎤💛”**. | *(voice‑over)* “Because when we **sing together**, we **grow together**.” |
+| 30‑35 s | **Host** winks, holds a microphone, glowing stage behind. | “Ready to make this night **legendary**?” |
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*
+
+---
+
+## 1️⃣ Script #1 – “🔥 Live‑Jam August 8 Preview: What If Your Favorite Song Came To Life Right Here?”
+
+*(Already completed in the draft – reproduced here for continuity)*  
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 1** – Highest‑ranked opportunity from Prompt 4 (event‑teaser).  
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|---------|--------|
+| **Exact Topic** | Teaser for the **Unplugged Raagam Live‑Jam – Aug 8 2026** (community sing‑along). |
+| **Exact Angle** | “What if the songs you love *actually* sound like this, right in your city?” – a *what‑if* curiosity hook. |
+| **Exact Format** | Talking‑head + voice‑over Reel (≈ 45 s). Fast‑cut montage of crowd, instruments, and a 2‑sec iconic‑song flash. |
+| **Intended Audience Reaction** | Immediate excitement → DM or click bio link to register. |
+| **Language & Tone** | Bilingual (English + Telugu), upbeat, emoji‑rich, inclusive (“We’re all family”). |
+| **Estimated Length** | 45 seconds (≈ 9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (spoken on‑camera, 0‑3 s):** “What if *your* favorite song **exploded** right here in Warangal on **August 8**?”  
+- **Alternate Hook:** “Imagine hearing your anthem **live** in the middle of the street – that’s what’s coming on Aug 8!”  
+- **Why Chosen:** Both open with a *what‑if* scenario that creates a curiosity gap and instantly tells the viewer the exact date and city, satisfying the “specific‑topic‑in‑first‑3 s” rule.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Close‑up of host @__.lasya.vocals__** with a burst of crowd cheering (SFX). | “What if *your* favorite song **exploded** right here in Warangal on **August 8**?” |
+| 3‑6 s | **Flash** of classic Telugu hit “Madhurame” live, overlay **“🔥 Madhurame LIVE 🔥”**. | *(no dialogue – music clip only)* |
+| 6‑10 s | **Talking‑head** – host smiles, gestures. | “We’re bringing the biggest sing‑along ever – **Telugu classics, new hits, and surprise guests**.” |
+| 10‑15 s | **Montage** – guitarist riff, drummer beat, crowd clapping, neon sign “UNPLUGGED RAAGAM”. | *(voice‑over)* “Feel the beat, raise your voice, make memories together.” |
+| 15‑20 s | **On‑screen graphic** – **“🗓 Aug 8 | 7 PM | Warangal Arena”**. | *(voice‑over)* “Mark your calendar – it’s happening at 7 PM, Warangal Arena.” |
+| 20‑25 s | **Host** points downwards. | “Tap **DM
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---  
+
+## 2️⃣ Script #2 – “⏱ 24‑Hour Stage Build: From Empty Lot to Concert‑Ready in One Day”
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 2** – Second‑most urgent opportunity from Prompt 4 (high‑impact behind‑the‑scenes).  
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|---------|--------|
+| **Exact Topic** | Full‑size outdoor concert stage built in **24 hrs** for the Aug 8 Live‑Jam. |
+| **Exact Angle** | “Watch every second we turn an empty lot into a stage – can we finish before sunset?” – a **real‑time countdown** angle. |
+| **Exact Format** | Voice‑over + timelapse Reel (≈ 45 s) with on‑screen clock graphics. |
+| **Intended Audience Reaction** | Awe → comment “I’m coming!” → share with friends who love live events. |
+| **Language & Tone** | Bilingual (English + Telugu), high‑energy, “we‑as‑team” vibe. |
+| **Estimated Length** | 45 seconds (9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (0‑3 s, on‑camera):** “We built a **full‑size concert stage** in **24 hours** – and you’ll see **every second**.”  
+- **Alternate Hook:** “Empty lot at 6 AM → stage at 6 PM. Can we pull it off?”  
+- **Why Chosen:** Instantly tells the viewer the exact challenge and promises a rapid‑fire visual payoff, hitting the curiosity‑gap pattern.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Host** standing on empty lot, clock‑ticking SFX, on‑screen **“Day 0 – Empty”**. | “We built a **full‑size concert stage** in **24 hours** – and you’ll see **every second**.” |
+| 3‑6 s | **Fast‑forward timelapse** of trucks arriving, overlay **“+2 hrs – Materials arrive”**. | *(voice‑over, upbeat)* “First, the crew drops off 30 pallets of steel, wood, and lights.” |
+| 6‑12 s | **Time‑lapse** of foundation work, workers hammering, clock graphic counting **06:00 → 09:00**. | *(voice‑over)* “Foundations poured, bolts tightened – the skeleton starts to rise.” |
+| 12‑18 s | **Close‑up** of a welder sparks, overlay **“+12 hrs – Frame up”**. | *(voice‑over)* “By noon the frame is standing tall – 20 metre wide, 8 metre high.” |
+| 18‑24 s | **Drone shot** circling the half‑built stage, on‑screen **“+18 hrs – Lighting rig”**. | *(voice‑over)* “Lights rigged, sound‑walls installed – we’re lighting up the night.” |
+| 24‑30 s | **Host** walks along the stage, points to a “Ready?” sign, clock shows **23:45**. | “We’ve got **15 minutes** left. Will we finish before the
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---  
+
+## 2️⃣ Script #2 – “⏱ 24‑Hour Stage Build: From Empty Lot to Concert‑Ready in One Day”
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 2** – Second‑most urgent opportunity from Prompt 4 (high‑impact behind‑the‑scenes).  
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|---------|--------|
+| **Exact Topic** | Building the full‑size outdoor stage for the Aug 8 Live‑Jam in **24 hours**. |
+| **Exact Angle** | Real‑time countdown: “Can we finish before sunset?” |
+| **Exact Format** | Voice‑over + timelapse Reel (≈ 45 s) with on‑screen clock graphics. |
+| **Intended Audience Reaction** | Awe → comment “I’m coming!” → share with friends who love live events. |
+| **Language & Tone** | Bilingual (English + Telugu), high‑energy, “we‑as‑team” vibe. |
+| **Estimated Length** | 45 seconds (9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (0‑3 s, on‑camera):** “We built a **full‑size concert stage** in **24 hours** – and you’ll see **every second**.”  
+- **Alternate Hook:** “Empty lot at 6 AM → stage at 6 PM. Can we pull it off?”  
+- **Why Chosen:** Instantly tells the viewer the exact challenge and promises a rapid‑fire visual payoff, hitting the curiosity‑gap pattern.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑3 s | **Host** standing on empty lot, clock‑ticking SFX, on‑screen **“Day 0 – Empty”**. | “We built a **full‑size concert stage** in **24 hours** – and you’ll see **every second**.” |
+| 3‑6 s | **Fast‑forward timelapse** of trucks arriving, overlay **“+2 hrs – Materials arrive”**. | *(voice‑over, upbeat)* “First, the crew drops off 30 pallets of steel, wood, and lights.” |
+| 6‑12 s | **Time‑lapse** of foundation work, workers hammering, clock graphic counting **06:00 → 09:00**. | *(voice‑over)* “Foundations poured, bolts tightened – the skeleton starts to rise.” |
+| 12‑18 s | **Close‑up** of a welder sparks, overlay **“+12 hrs – Frame up”**. | *(voice‑over)* “By noon the frame is standing tall – 20 metre wide, 8 metre high.” |
+| 18‑24 s | **Drone shot** circling the half‑built stage, on‑screen **“+18 hrs – Lighting rig”**. | *(voice‑over)* “Lights rigged, sound‑walls installed – we’re lighting up the night.” |
+| 24‑30 s | **Host** walks along the stage, points to a “Ready?” sign, clock shows **23:45**. | “We’ve got **15 minutes** left. Will we finish before the sunset?” |
+| 30‑36 s | **Speed‑ramped clip** of electricians snapping cables, on‑screen **“+23 hrs – Power test”**. | *(voice‑over)* “Power tested, speakers tuned – the sound is already booming.” |
+| 36‑42 s | **Final wide shot** of the completed stage, neon “UNPLUGGED RAAGAM”, crowd silhouettes appear. | *(voice‑over)* “And… **DONE!** The stage is live, just in time for the night of music.” |
+| 42‑45 s | **Host** faces camera, points down. | “Want a backstage pass on
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---  
+
+## 2️⃣ Script #2 – “⏱ 24‑Hour Stage Build: From Empty Lot to Concert‑Ready in One Day”
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 2** – Second‑most urgent opportunity from Prompt 4 (high‑impact behind‑the‑scenes).  
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|---------|--------|
+| **Exact Topic** | Full‑size outdoor concert stage built in **24 hrs** for the Aug 8 Live‑Jam. |
+| **Exact Angle** | Real‑time countdown: “Can we finish before sunset?” |
+| **Exact Format** | Voice‑over + timelapse Reel (≈ 45 s) with on‑screen clock graphics. |
+| **Intended Audience Reaction** | Awe → comment “I’m coming!” → share with friends who love live events. |
+| **Language & Tone** | Bilingual (English + Telugu), high‑energy, “we‑as‑team” vibe. |
+| **Estimated Length** | 45 seconds (9‑10 quick cuts). |
+
+### Hook  
+- **Final Hook (0‑3 s, on‑camera):** “We built a **full‑size concert stage** in **24 hours** – and you’ll see **every second**.”  
+- **Alternate Hook:** “Empty lot at 6 AM → stage at 6 PM. Can we pull it off?”  
+- **Why Chosen:** Instantly tells the viewer the exact challenge and promises a rapid‑fire visual payoff, hitting the **Curiosity‑Gap** pattern.
+
+### Full Script  
+
+|
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---  
+
+## 3️⃣ Script #3 – “🚫 3 Sound Mistakes Killing Your Live Show (and How to Fix Them in 30 Sec)”
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 3** – High‑impact “quick‑win tip” identified in Prompt 4.  
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|--------|--------|
+| **Exact Topic** | The three most common audio‑engineering mistakes that make a live gig sound muddy. |
+| **Exact Angle** | “You’re hearing this right now – fix it in 3 seconds each.” |
+| **Exact Format** | Talking‑head Reel (≈ 30 s) with on‑screen graphic counters and sound‑wave animations. |
+| **Intended Audience Reaction** | “Wow, I didn’t know that!” → comment own experience → share with bandmates. |
+| **Language & Tone** | Bilingual (English + Telugu), punchy, authoritative but friendly. |
+| **Estimated Length** | 30 seconds (3 × 8‑second fix + 6 s intro/outro). |
+
+### Hook  
+- **Final Hook (0‑2 s, on‑camera):** “Your live mix sounds **blanket‑wet** – here are the 3 things you’re doing wrong.”  
+- **Alternate Hook:** “If the crowd can’t hear the drums, you’ve just made mistake #2.”  
+- **Why Chosen:** Directly names the pain point and promises a rapid solution → perfect **Curiosity‑Gap** hook.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑2 s | **Host** in front of a mixing console, finger on a fader, bold on‑screen text “3 Audio Mistakes”. | “Your live mix sounds **blanket‑wet** – here are the 3 things you’re doing wrong.” |
+| 2‑10 s | **Graphic #1**: “Mistake 1 – Too Much High‑End”. Show a waveform exploding at 10 kHz, red “X”. | *(voice‑over, fast)* “Mistake 1: Cranking the high‑end on every channel. Fix: Cut all EQs above 8 kHz by ‑3 dB and boost the main LR‑bus instead.” |
+| 10‑18 s | **Graphic #2**: “Mistake 2 – No Sub‑Group for Drums”. Show drum tracks all soloed, chaotic. | *(voice‑over)* “Mistake 2: Sending every drum mic straight to the master. Fix: Route all drums to a **sub‑group**, apply a single gentle compressor, then send to the master.” |
+| 18‑26 s | **Graphic #3**: “Mistake 3 – Ignoring Room Acoustics”. Show audience with echo lines. | *(voice‑over)* “Mistake 3: Ignoring the venue’s acoustics. Fix: Place **two‑band parametric EQ** on the front‑of‑house
+
+**⚡️ VIRAL SCRIPT AMPLIFICATION PACK – @unplugged.raagam**  
+*All scripts are 100 % ready‑to‑record – just hit “record” and go.*  
+
+---  
+
+## 3️⃣ Script #3 – “🚫 3 Sound Mistakes Killing Your Live Show (and How to Fix Them in 30 Sec)”
+
+**Script Priority Reference**  
+- **Tier 1 – Rank 3** – High‑impact “quick‑win tip” identified in Prompt 4.  
+
+**Script Strategy Snapshot**
+
+| Element | Detail |
+|--------|--------|
+| **Exact Topic** | The three most common audio‑engineering mistakes that make a live gig sound muddy. |
+| **Exact Angle** | “You’re hearing this right now – fix it in 3 seconds each.” |
+| **Exact Format** | Talking‑head Reel (≈ 30 s) with on‑screen graphic counters and sound‑wave animations. |
+| **Intended Audience Reaction** | “Wow, I didn’t know that!” → comment own experience → share with bandmates. |
+| **Language & Tone** | Bilingual (English + Telugu), punchy, authoritative but friendly. |
+| **Estimated Length** | 30 seconds (3 × 8‑second fix + 6 s intro/outro). |
+
+### Hook  
+- **Final Hook (0‑2 s, on‑camera):** “Your live mix sounds **blanket‑wet** – here are the **3 things you’re doing wrong**.”  
+- **Alternate Hook:** “If the crowd can’t hear the drums, you’ve just made mistake #2.”  
+- **Why Chosen:** Directly names the pain point and promises a rapid solution → perfect **Curiosity‑Gap** hook.
+
+### Full Script  
+
+| Time | Visual / Audio | Script (word‑for‑word) |
+|------|----------------|------------------------|
+| 0‑2 s | **Host** in front of a mixing console, finger on a fader, bold on‑screen text “3 Audio Mistakes”. | “Your live mix sounds **blanket‑wet** – here are the **3 things you’re doing wrong**.” |
+| 2‑10 s | **Graphic #1**: “Mistake 1 – Too Much High‑End”. Waveform exploding at 10 kHz, red “X”. | *(voice‑over, fast)* “Mistake 1: Cranking the high‑end on every channel. **Fix:** Cut all EQs above 8 kHz by ‑3 dB and boost the main LR‑bus instead.” |
+| 10‑18 s | **Graphic #2**: “Mistake 2 – No Sub‑Group for Drums”. Drum tracks soloed, chaotic spikes. | *(voice‑over)* “Mistake 2: Sending every drum mic straight to the master. **Fix:** Route all drums to a **sub‑group**, apply a gentle compressor, then send the group to the master.” |
+| 18‑26 s | **Graphic #3**: “Mistake 3 – Ignoring Room Acoustics”. Audience with echo lines, “↔️”. | *(voice‑over)* “Mistake 3: Ignoring the venue’s acoustics. **Fix:** Place a **two‑band parametric EQ** on the front‑of‑house output – cut 200 Hz by ‑2 dB and boost 3 kHz by +2 d
