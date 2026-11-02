@@ -3,7 +3,73 @@
 from __future__ import annotations
 
 import re
+from functools import lru_cache
 from pathlib import Path
+
+# The PDF base-14 fonts (Helvetica, Courier) only cover Latin-1, so emoji and
+# typographic characters (‑ U+2011, narrow NBSP, arrows) rendered as black boxes.
+# We embed DejaVu Sans for text and Noto Emoji (monochrome; PDF engines can't draw
+# colour emoji) and switch to the emoji font for characters DejaVu lacks.
+FONTS_DIR = Path(__file__).resolve().parent / "fonts"
+TEXT_FONT = "DejaVuSans"
+MONO_FONT = "DejaVuSansMono"
+EMOJI_FONT = "NotoEmoji"
+_TEXT_FILES = {
+    (False, False): "DejaVuSans.ttf",
+    (True, False): "DejaVuSans-Bold.ttf",
+    (False, True): "DejaVuSans-Oblique.ttf",
+    (True, True): "DejaVuSans-BoldOblique.ttf",
+}
+# Invisible joiners/selectors: drop them so they don't show up as boxes.
+_STRIP_CHARS = dict.fromkeys(map(ord, "︎️‍"), None)
+
+
+@lru_cache(maxsize=None)
+def _cmap(filename: str) -> frozenset[int]:
+    from reportlab.pdfbase.ttfonts import TTFontFile
+
+    return frozenset(TTFontFile(str(FONTS_DIR / filename)).charToGlyph)
+
+
+def _needs_emoji_font(ch: str) -> bool:
+    cp = ord(ch)
+    return cp > 0x7F and cp not in _cmap(_TEXT_FILES[(False, False)]) and cp in _cmap("NotoEmoji.ttf")
+
+
+def _wrap_emoji_runs(text: str, open_tag: str, close_tag: str) -> str:
+    """Wrap runs of characters that only the emoji font has in open_tag/close_tag."""
+    text = text.translate(_STRIP_CHARS)
+    out, run = [], []
+    for ch in text:
+        if _needs_emoji_font(ch):
+            run.append(ch)
+            continue
+        if run:
+            out.append(open_tag + "".join(run) + close_tag)
+            run = []
+        out.append(ch)
+    if run:
+        out.append(open_tag + "".join(run) + close_tag)
+    return "".join(out)
+
+
+def _wrap_emoji_in_html(html: str) -> str:
+    """Apply _wrap_emoji_runs to text nodes only (never inside <tags>)."""
+    parts = re.split(r"(<[^>]+>)", html)
+    span = f'<span style="font-family: {EMOJI_FONT}">'
+    return "".join(p if p.startswith("<") else _wrap_emoji_runs(p, span, "</span>") for p in parts)
+
+
+def _font_face_css() -> str:
+    rules = []
+    for (bold, italic), filename in _TEXT_FILES.items():
+        for family, path in ((TEXT_FONT, FONTS_DIR / filename), (EMOJI_FONT, FONTS_DIR / "NotoEmoji.ttf")):
+            rules.append(
+                f'@font-face {{ font-family: "{family}"; src: url("{path.as_posix()}"); '
+                f"font-weight: {'bold' if bold else 'normal'}; font-style: {'italic' if italic else 'normal'}; }}"
+            )
+    rules.append(f'@font-face {{ font-family: "{MONO_FONT}"; src: url("{(FONTS_DIR / "DejaVuSansMono.ttf").as_posix()}"); }}')
+    return "\n".join(rules)
 
 
 def _markdown_to_html(markdown_text: str) -> str:
@@ -13,14 +79,16 @@ def _markdown_to_html(markdown_text: str) -> str:
         markdown_text,
         extensions=["extra", "sane_lists", "nl2br", "tables", "fenced_code"],
     )
+    body = _wrap_emoji_in_html(body)
     return f"""<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8"/>
 <style>
+{_font_face_css()}
 @page {{ size: A4; margin: 1.6cm; }}
 body {{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: {TEXT_FONT};
   font-size: 10.5pt;
   line-height: 1.45;
   color: #111111;
@@ -39,7 +107,7 @@ blockquote {{
 hr {{ border: none; border-top: 1px solid #cccccc; margin: 1em 0; }}
 strong {{ font-weight: bold; }}
 em {{ font-style: italic; }}
-code, pre {{ font-family: Courier, monospace; font-size: 9.5pt; }}
+code, pre {{ font-family: {MONO_FONT}; font-size: 9.5pt; }}
 pre {{
   white-space: pre-wrap;
   background: #f7f7f7;
@@ -82,8 +150,27 @@ def _inline_md_to_reportlab(text: str) -> str:
     s = re.sub(r"__(.+?)__", r"<b>\1</b>", s)
     s = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<i>\1</i>", s)
     s = re.sub(r"(?<!_)_(?!_)(.+?)(?<!_)_(?!_)", r"<i>\1</i>", s)
-    s = re.sub(r"`([^`]+)`", r"<font face='Courier' size='9'>\1</font>", s)
-    return s
+    s = re.sub(r"`([^`]+)`", rf"<font face='{MONO_FONT}' size='9'>\1</font>", s)
+    return _wrap_emoji_runs(s, f"<font face='{EMOJI_FONT}'>", "</font>")
+
+
+def _register_reportlab_fonts() -> None:
+    from reportlab.lib.fonts import addMapping
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+
+    if TEXT_FONT in pdfmetrics.getRegisteredFontNames():
+        return
+    names = {(False, False): TEXT_FONT, (True, False): f"{TEXT_FONT}-Bold",
+             (False, True): f"{TEXT_FONT}-Oblique", (True, True): f"{TEXT_FONT}-BoldOblique"}
+    for key, filename in _TEXT_FILES.items():
+        pdfmetrics.registerFont(TTFont(names[key], str(FONTS_DIR / filename)))
+        addMapping(TEXT_FONT, int(key[0]), int(key[1]), names[key])
+    pdfmetrics.registerFont(TTFont(MONO_FONT, str(FONTS_DIR / "DejaVuSansMono.ttf")))
+    pdfmetrics.registerFont(TTFont(EMOJI_FONT, str(FONTS_DIR / "NotoEmoji.ttf")))
+    for bold in (0, 1):
+        for italic in (0, 1):
+            addMapping(EMOJI_FONT, bold, italic, EMOJI_FONT)
 
 
 def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
@@ -101,12 +188,13 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         Spacer,
     )
 
+    _register_reportlab_fonts()
     base = getSampleStyleSheet()
     styles = {
         "body": ParagraphStyle(
             "MDBody",
             parent=base["Normal"],
-            fontName="Helvetica",
+            fontName=TEXT_FONT,
             fontSize=10,
             leading=14,
             spaceAfter=6,
@@ -115,7 +203,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "h1": ParagraphStyle(
             "MDH1",
             parent=base["Heading1"],
-            fontName="Helvetica-Bold",
+            fontName=f"{TEXT_FONT}-Bold",
             fontSize=16,
             leading=20,
             spaceBefore=14,
@@ -124,7 +212,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "h2": ParagraphStyle(
             "MDH2",
             parent=base["Heading2"],
-            fontName="Helvetica-Bold",
+            fontName=f"{TEXT_FONT}-Bold",
             fontSize=13,
             leading=17,
             spaceBefore=12,
@@ -133,7 +221,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "h3": ParagraphStyle(
             "MDH3",
             parent=base["Heading3"],
-            fontName="Helvetica-Bold",
+            fontName=f"{TEXT_FONT}-Bold",
             fontSize=11.5,
             leading=15,
             spaceBefore=10,
@@ -142,7 +230,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "h4": ParagraphStyle(
             "MDH4",
             parent=base["Heading4"],
-            fontName="Helvetica-Bold",
+            fontName=f"{TEXT_FONT}-Bold",
             fontSize=10.5,
             leading=14,
             spaceBefore=8,
@@ -151,7 +239,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "quote": ParagraphStyle(
             "MDQuote",
             parent=base["Normal"],
-            fontName="Helvetica-Oblique",
+            fontName=f"{TEXT_FONT}-Oblique",
             fontSize=10,
             leading=14,
             leftIndent=14,
@@ -162,7 +250,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "li": ParagraphStyle(
             "MDLi",
             parent=base["Normal"],
-            fontName="Helvetica",
+            fontName=TEXT_FONT,
             fontSize=10,
             leading=14,
             leftIndent=12,
@@ -171,7 +259,7 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
         "code": ParagraphStyle(
             "MDCode",
             parent=base["Code"],
-            fontName="Courier",
+            fontName=MONO_FONT,
             fontSize=8.5,
             leading=11,
             leftIndent=8,
@@ -214,9 +302,9 @@ def _write_pdf_reportlab(markdown_text: str, pdf_path: Path) -> None:
             ListFlowable(
                 items,
                 bulletType="1" if list_ordered else "bullet",
-                start="1",
+                start="1" if list_ordered else None,
                 leftIndent=18,
-                bulletFontName="Helvetica",
+                bulletFontName=TEXT_FONT,
                 bulletFontSize=10,
                 spaceBefore=2,
                 spaceAfter=6,
