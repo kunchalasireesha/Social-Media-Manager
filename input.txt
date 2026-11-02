@@ -1,20 +1,22 @@
-Subject profile: 
+Subject profile:
     username: unplugged.raagam
     description: Raagam is a music artist who creates music videos for his songs.
-    
-    
-competitors: 
+
+competitors:
     competitor1:
         username: paadu_bro_official
         description: paadu bro is a music artist who creates music videos for his songs.
-       
+
     competitor2:
         username: paata_shala
         description: Paatashaala is a music artist who creates music videos for his songs.
-       
+
     competitor3:
         username: chinna_viramam
         description: chinna viramam music is a music artist who creates music videos for his songs.
 
-
 important_accounts:
+
+content_objective:
+    Type: Channel growth and promotion of the Event on August 8th 2026
+    Description: I want to grow my followers and engagement. I also want to promote the Event on August 8th 2026.

@@ -12,3 +12,21 @@ wheels/
 # Secrets
 .env
 .env.*
+
+# Streamlit
+.streamlit/secrets.toml
+.smm_data/
+
+# Scraped third-party data & run logs (regenerated each run)
+dna/**/*.json
+logs/*.csv
+
+# Generated outputs (keep one sample run)
+output/*
+!output/.gitkeep
+!output/20261101_191933_unplugged.raagam_viral_scripts.*
+
+# Scratch notebooks & private notes
+smm_run*.ipynb
+INTERVIEW_NOTES.md
+.DS_Store
