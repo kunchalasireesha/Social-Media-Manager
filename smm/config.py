@@ -110,11 +110,17 @@ class Settings:
         if self.llm_provider == "groq":
             from langchain_groq import ChatGroq
 
+            extra: dict[str, Any] = {}
+            if "gpt-oss" in self.groq_model:
+                # Hidden reasoning tokens count against max_tokens; keep them small so the
+                # 1500-token cap is spent on visible script text.
+                extra["reasoning_effort"] = "low"
             return ChatGroq(
                 model_name=self.groq_model,
                 temperature=self.temperature,
                 max_tokens=self.max_completion_tokens,
                 api_key=self.groq_api_key,
+                **extra,
             )
         from langchain_openai import ChatOpenAI
 

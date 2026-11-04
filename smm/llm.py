@@ -39,15 +39,19 @@ def _fit_to_input_budget(settings: Settings, system_prompt: str, human: str) -> 
     return human
 
 
-def _content_to_text(content: Any) -> str:
+def _content_to_text(content: Any, strip: bool = True) -> str:
     if isinstance(content, list):
         content = "".join(
             part.get("text", str(part)) if isinstance(part, dict) else str(part) for part in content
         )
-    return str(content).strip()
+    return str(content).strip() if strip else str(content)
 
 
-def invoke_prompt(settings: Settings, llm: Any, system_prompt: str, human: str) -> str:
+def invoke_prompt_ex(settings: Settings, llm: Any, system_prompt: str, human: str) -> tuple[str, bool]:
+    """Invoke the LLM; returns (raw text, truncated) where truncated means the output hit the token cap.
+
+    The text is not stripped so a cut-off reply and its continuation can be joined exactly.
+    """
     human = _fit_to_input_budget(settings, system_prompt, human)
     estimated = estimate_tokens(system_prompt) + estimate_tokens(human)
     logger.info(
@@ -63,7 +67,8 @@ def invoke_prompt(settings: Settings, llm: Any, system_prompt: str, human: str) 
     for attempt in range(max_attempts):
         try:
             response = llm.invoke([("system", system_prompt), ("human", human)])
-            return _content_to_text(response.content)
+            finish = (getattr(response, "response_metadata", None) or {}).get("finish_reason")
+            return _content_to_text(response.content, strip=False), finish == "length"
         except Exception as err:
             msg = str(err).lower()
             is_tpm = "rate_limit" in msg or "tokens per minute" in msg or "request too large" in msg
@@ -73,3 +78,7 @@ def invoke_prompt(settings: Settings, llm: Any, system_prompt: str, human: str) 
             logger.warning("Groq TPM/rate limit hit; waiting %ds then retrying (%d/%d)", wait_s, attempt + 1, max_attempts - 1)
             time.sleep(wait_s)
     raise RuntimeError("unreachable")
+
+
+def invoke_prompt(settings: Settings, llm: Any, system_prompt: str, human: str) -> str:
+    return invoke_prompt_ex(settings, llm, system_prompt, human)[0].strip()

@@ -18,7 +18,7 @@ from .context import (
     build_performance_data,
     format_prior_context,
 )
-from .llm import invoke_prompt, truncate
+from .llm import invoke_prompt, invoke_prompt_ex, truncate
 from .models import DEFAULT_CONTENT_OBJECTIVE, GraphState, insta_profile, profile_metadata, smm_metadata
 from .prompts import (
     PROMPT_2_PATH,
@@ -243,45 +243,50 @@ def has_upload_plan(text: str) -> bool:
     return bool(re.search(r"(?i)next\s*20\s*posts\s*upload\s*plan|upload\s*plan", text or ""))
 
 
-def looks_complete(text: str) -> bool:
-    return (
-        count_scripts(text) >= 20
-        and bool(re.search(r"(?i)script pack summary|recording priority order", text or ""))
-        and count_carousels(text) >= 10
-        and count_reels(text) >= 10
-        and has_upload_plan(text)
-    )
+TOTAL_SCRIPTS = 20
+MAX_CUTOFF_CONTINUATIONS = 3  # extra calls allowed to finish one reply that hit the token cap
 
 
-def _continuation_request(result: str) -> str:
-    scripts, reels, carousels, plan = count_scripts(result), count_reels(result), count_carousels(result), has_upload_plan(result)
-    tail = f"### Draft so far (tail)\n{(result or '')[-6000:]}"
-    if scripts >= 20 and (carousels < 10 or reels < 10):
-        return (
-            "The pack has enough total scripts but the 10/10 Reel/Carousel mix is incomplete. "
-            f"Current counts: ~{reels} reels, ~{carousels} carousels. "
-            "Add ONLY scripts in the missing format until you have exactly 10 of each. "
-            "Carousels must be slide-by-slide with Format labeled. Every new script must include "
-            "Recommended upload day, Recommended upload time (IST), and Why this upload slot. "
-            "Then update the Next 20 Posts Upload Plan.\n\n" + tail
+def script_format(n: int) -> str:
+    """1 post/day alternating Reel and Carousel: odd = Reel, even = Carousel (10 of each)."""
+    return "REEL" if n % 2 else "CAROUSEL"
+
+
+def _script_heading(n: int) -> str:
+    return f"## 🎬 SCRIPT #{n} – {script_format(n)}"
+
+
+def _script_title(n: int, text: str) -> str:
+    m = re.search(r"(?im)^\W*title\W*:\s*(.+)$", text or "")
+    title = (m.group(1) if m else "").strip().strip("*“”\"").strip()
+    return f"#{n} {script_format(n)}: {title[:120] or '(untitled)'}"
+
+
+def _generate_until_done(settings: Settings, llm: Any, system: str, human: str, label: str) -> str:
+    """One LLM reply; if it hits the output-token cap, ask it to continue the same text."""
+    text, cut = invoke_prompt_ex(settings, llm, system, human)
+    for i in range(1, MAX_CUTOFF_CONTINUATIONS + 1):
+        if not cut:
+            break
+        logger.info("[Execute Prompt 6] %s hit the output cap; continuing (%d/%d)", label, i, MAX_CUTOFF_CONTINUATIONS)
+        request = (
+            f"Your previous reply ({label}) was cut off by the output limit. Continue it EXACTLY where "
+            "it stops: no preamble, no repetition, do not restart the script and do not start any "
+            "other script. Finish every remaining required section (including the complete Viral "
+            "Proof Block) and then stop.\n\n### Your reply so far (tail)\n" + text[-3000:]
         )
-    if scripts >= 20 and not plan:
-        return (
-            "Scripts and format mix look complete, but the Next 20 Posts Upload Plan is missing. "
-            "Add ONLY the Script Pack Summary section titled Next 20 Posts Upload Plan with a "
-            "table covering all 20 posts: Post #, Day, Date (IST), Time (IST), Format, Script #, "
-            "Topic, Why this slot. Use IST peak windows and 1 post/day alternating Reel/Carousel.\n\n" + tail
-        )
-    return (
-        "Continue the Prompt 6 script pack exactly where this draft ended. "
-        "Do not restart from Script 1. Do not repeat completed scripts. "
-        f"You currently have {scripts} scripts (~{reels} reels, ~{carousels} carousels); "
-        f"the next script is Script #{scripts + 1}. "
-        "Keep writing until you have exactly 20 complete scripts with Viral Proof Blocks, "
-        "exactly 10 Reel and 10 Carousel scripts, every script with Recommended upload "
-        "day/time (IST) and Why this upload slot, then finish with the Script Pack Summary "
-        "including the Next 20 Posts Upload Plan.\n\n" + tail
-    )
+        chunk, cut = invoke_prompt_ex(settings, llm, system, request)
+        if not chunk.strip():
+            break
+        text += chunk  # raw join: the cut can fall mid-word, so don't add or strip whitespace
+    return text.strip()
+
+
+def _ist_start_date() -> str:
+    from datetime import timedelta, timezone
+
+    ist = timezone(timedelta(hours=5, minutes=30))
+    return (datetime.now(ist).date() + timedelta(days=1)).isoformat()
 
 
 def write_outputs(settings: Settings, subject_username: str, body: str, stamp: str) -> dict:
@@ -313,55 +318,100 @@ def write_outputs(settings: Settings, subject_username: str, body: str, stamp: s
     }
 
 
-MAX_CONTINUATIONS = 10
-
-
 @log_stage("Execute Prompt 6")
 def execute_prompt_6(state: GraphState, config: RunnableConfig) -> dict:
-    """Viral script amplification engine; loops until the 20-script pack is complete."""
+    """Viral script amplification engine.
+
+    The pack is generated in pieces (scripts in small batches, then the summary) instead of
+    one long reply, because output-token caps (Groq: 1500/call) cut a single reply off after
+    about one script and "continue" requests made the model restart at Script #1.
+    Each request names the exact script numbers and formats, so the pack always has
+    20 scripts, 10 Reels + 10 Carousels, in order.
+    """
     settings, llm = _runtime(config)
     system = extract_final_prompt(PROMPT_6_PATH)
-    human = format_prior_context(
+    context = format_prior_context(
         settings,
         state,
         ["content_dna_intake", "prompt_1_result", "prompt_2_result", "prompt_3_result", "prompt_4_result", "prompt_5_result"],
         include_dna=False,
     )
-    human += (
-        "\n\nProduce exactly 20 complete ready-to-record scripts with Viral Proof Blocks. "
-        "Use Prompt 3 performance learnings together with Prompt 2 research, Prompt 4 "
-        "priorities, and Prompt 5 scripts. "
-        "HARD REQUIREMENT: exactly 10 Reel scripts and exactly 10 Carousel/comparison-carousel "
-        "scripts with Format labeled accordingly; carousels must be full slide-by-slide. "
-        "HARD REQUIREMENT: every script must include Recommended upload day, Recommended "
-        "upload time (IST), and Why this upload slot. "
-        "HARD REQUIREMENT: end with a Next 20 Posts Upload Plan table covering all 20 posts "
-        "using IST peak windows (Morning 08:00-09:30, Lunch 12:30-14:00, Evening 19:00-21:00, "
-        "Late night 21:30-22:30), default 1 post/day alternating Reel and Carousel."
-    )
-
     subject_username = (state.get("subject") or {}).get("username", "creator")
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    start_date = _ist_start_date()
+    batch = 1 if settings.enforce_tpm_limit else 5
 
-    result = invoke_prompt(settings, llm, system, human)
-    outputs = write_outputs(settings, subject_username, result, stamp)
+    header = (
+        f"## 📚 {TOTAL_SCRIPTS} Ready-to-Record Instagram Scripts\n\n"
+        f"**Format mix:** {TOTAL_SCRIPTS // 2} Reels | {TOTAL_SCRIPTS // 2} Carousels "
+        f"(alternating, 1 post/day starting {start_date})"
+    )
+    scripts: dict[int, str] = {}
 
-    # Output token limits can cut the pack short; ask the model to continue until complete.
-    for cont in range(1, MAX_CONTINUATIONS + 1):
-        if looks_complete(result):
-            break
-        logger.info(
-            "[Execute Prompt 6] incomplete (%d scripts, ~%d reels, ~%d carousels, upload_plan=%s); continuation %d/%d",
-            count_scripts(result), count_reels(result), count_carousels(result), has_upload_plan(result), cont, MAX_CONTINUATIONS,
+    def assemble(summary: str = "") -> str:
+        parts = [header, *(scripts[n] for n in sorted(scripts))] + ([summary] if summary else [])
+        return "\n\n---\n\n".join(parts)
+
+    def titles() -> list[str]:
+        return [_script_title(n, scripts[n]) for n in sorted(scripts)]
+
+    def request_for(nums: list[int]) -> tuple[str, str]:
+        label = f"Script #{nums[0]}" if len(nums) == 1 else f"Scripts #{nums[0]}-#{nums[-1]}"
+        plan = "\n".join(
+            f"- Script #{n}: {script_format(n).title()} — heading `{_script_heading(n)}`, "
+            f"Post {n} of {TOTAL_SCRIPTS}, upload day = {start_date} + {n - 1} day(s)"
+            for n in nums
         )
-        request = _continuation_request(result)
-        if not settings.enforce_tpm_limit:
-            # With a large context window, keep the research in view so continuations stay on-strategy.
-            request = human + "\n\n---\n\n" + request
-        chunk = invoke_prompt(settings, llm, system, request)
-        if not (chunk or "").strip():
-            break
-        result = f"{result.rstrip()}\n\n{chunk.strip()}".strip()
-        outputs = write_outputs(settings, subject_username, result, stamp)
+        done = "\n".join(f"- {t}" for t in titles()) or "- (none yet)"
+        # Task first: on Groq the human message is truncated from the END to fit the TPM budget.
+        human = (
+            f"TASK: write ONLY {label} of the {TOTAL_SCRIPTS}-script pack, nothing else.\n{plan}\n\n"
+            "Rules:\n"
+            "- Start each script with its exact heading above. Label the Format line Reel or Carousel to match.\n"
+            "- Carousels need full slide-by-slide copy (Slide 1, Slide 2, ...).\n"
+            "- Every script needs Recommended upload day, Recommended upload time (IST), Why this "
+            "upload slot, and the complete Viral Proof Block.\n"
+            "- Do NOT write a pack introduction, any other script, or the Script Pack Summary.\n\n"
+            f"Already written — pick different topics/angles:\n{done}\n\n"
+            f"{context}"
+        )
+        return label, human
 
+    def split_scripts(text: str, nums: list[int]) -> dict[int, str]:
+        """Map each requested script number to its section of the reply."""
+        if len(nums) == 1:
+            if not re.search(rf"(?i)script\s*#?\s*{nums[0]}\b", text[:300]):
+                text = f"{_script_heading(nums[0])}\n\n{text}"
+            return {nums[0]: text}
+        found: dict[int, str] = {}
+        for chunk in re.split(r"(?im)^(?=#{1,4}\s*🎬?\s*script\s*#?\s*\d+)", text):
+            m = re.match(r"(?i)#{1,4}\s*🎬?\s*script\s*#?\s*(\d+)", chunk)
+            if m and int(m.group(1)) in nums and int(m.group(1)) not in found:
+                found[int(m.group(1))] = chunk.strip().rstrip("-").strip()
+        return found
+
+    outputs: dict = {}
+    for first in range(1, TOTAL_SCRIPTS + 1, batch):
+        nums = list(range(first, min(first + batch, TOTAL_SCRIPTS + 1)))
+        label, human = request_for(nums)
+        scripts.update(split_scripts(_generate_until_done(settings, llm, system, human, label), nums))
+        # A batch reply can skip or merge scripts; fill any gap one script at a time.
+        for n in (n for n in nums if n not in scripts):
+            logger.info("[Execute Prompt 6] Script #%d missing from batch reply; generating it alone", n)
+            label, human = request_for([n])
+            scripts.update(split_scripts(_generate_until_done(settings, llm, system, human, label), [n]))
+        outputs = write_outputs(settings, subject_username, assemble(), stamp)
+
+    summary_request = (
+        f"TASK: all {TOTAL_SCRIPTS} scripts are written (listed below). Write ONLY the Script Pack "
+        "Summary, starting with the heading `## Script Pack Summary`. Include Recording Priority "
+        "Order, Format Mix Check (10 Reels + 10 Carousels), and the Next 20 Posts Upload Plan table "
+        "with exactly 20 rows: | Post # | Day | Date (IST) | Time (IST) | Format | Script # | Topic | "
+        f"Why this slot |. Post n = Script #n, one post per day starting {start_date}, using IST peak "
+        "windows (Morning 08:00-09:30, Lunch 12:30-14:00, Evening 19:00-21:00, Late night 21:30-22:30). "
+        "Do not rewrite any scripts.\n\nScripts:\n" + "\n".join(f"- {t}" for t in titles()) + f"\n\n{context}"
+    )
+    summary = _generate_until_done(settings, llm, system, summary_request, "Script Pack Summary")
+    result = assemble(summary)
+    outputs = write_outputs(settings, subject_username, result, stamp)
     return {"prompt_6_result": result, **outputs}
