@@ -60,6 +60,7 @@ class GraphState(TypedDict, total=False):
     prompt_4_result: str
     prompt_5_result: str
     prompt_6_result: str
+    pack_warning: str
     final_document: str
     output_txt_path: str
     output_md_path: str

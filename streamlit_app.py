@@ -141,6 +141,8 @@ if result and result.get("output_md_path"):
     md_path = Path(result["output_md_path"])
     pdf_path = Path(result.get("output_pdf_path", ""))
     st.subheader("📄 Your script pack")
+    if result.get("pack_warning"):
+        st.warning(result["pack_warning"])
     c1, c2 = st.columns(2)
     c1.download_button("Download Markdown", md_path.read_bytes(), file_name=md_path.name, mime="text/markdown")
     if pdf_path.is_file():

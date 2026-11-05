@@ -2,10 +2,26 @@
 
 from __future__ import annotations
 
+import re
 import time
 from typing import Any
 
 from .config import Settings, logger
+
+
+class DailyLimitError(RuntimeError):
+    """The provider's daily token/request quota is used up; retrying within minutes won't help."""
+
+
+_RETRY_IN = re.compile(r"try again in\s*(?:(\d+)h)?\s*(?:(\d+)m)?\s*(?:([\d.]+)s)?", re.I)
+
+
+def _retry_after_seconds(msg: str) -> float | None:
+    m = _RETRY_IN.search(msg)
+    if not m or not any(m.groups()):
+        return None
+    h, mins, secs = (float(g) if g else 0.0 for g in m.groups())
+    return h * 3600 + mins * 60 + secs
 
 
 def estimate_tokens(text: str) -> int:
@@ -70,12 +86,23 @@ def invoke_prompt_ex(settings: Settings, llm: Any, system_prompt: str, human: st
             finish = (getattr(response, "response_metadata", None) or {}).get("finish_reason")
             return _content_to_text(response.content, strip=False), finish == "length"
         except Exception as err:
-            msg = str(err).lower()
-            is_tpm = "rate_limit" in msg or "tokens per minute" in msg or "request too large" in msg
+            msg = str(err)
+            low = msg.lower()
+            if "per day" in low or "(tpd)" in low or "(rpd)" in low:
+                wait = _retry_after_seconds(msg)
+                when = f" Try again in about {round(wait / 60)} minutes" if wait else " Try again later"
+                raise DailyLimitError(
+                    f"{settings.llm_provider} daily usage limit reached for model "
+                    f"{settings.groq_model if settings.llm_provider == 'groq' else settings.openai_model}."
+                    f"{when}, use a different model, or switch to OpenAI."
+                ) from err
+            is_tpm = "rate_limit" in low or "tokens per minute" in low or "request too large" in low
             if not settings.enforce_tpm_limit or not is_tpm or attempt == max_attempts - 1:
                 raise
-            wait_s = 15 * (attempt + 1)
-            logger.warning("Groq TPM/rate limit hit; waiting %ds then retrying (%d/%d)", wait_s, attempt + 1, max_attempts - 1)
+            # Use the provider's suggested wait when it gives one (per-minute limits reset quickly).
+            suggested = _retry_after_seconds(msg)
+            wait_s = min(suggested + 1, 90) if suggested else 15 * (attempt + 1)
+            logger.warning("Groq TPM/rate limit hit; waiting %.0fs then retrying (%d/%d)", wait_s, attempt + 1, max_attempts - 1)
             time.sleep(wait_s)
     raise RuntimeError("unreachable")
 

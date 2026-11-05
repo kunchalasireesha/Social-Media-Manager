@@ -18,7 +18,7 @@ from .context import (
     build_performance_data,
     format_prior_context,
 )
-from .llm import invoke_prompt, invoke_prompt_ex, truncate
+from .llm import DailyLimitError, invoke_prompt, invoke_prompt_ex, truncate
 from .models import DEFAULT_CONTENT_OBJECTIVE, GraphState, insta_profile, profile_metadata, smm_metadata
 from .prompts import (
     PROMPT_2_PATH,
@@ -391,27 +391,36 @@ def execute_prompt_6(state: GraphState, config: RunnableConfig) -> dict:
         return found
 
     outputs: dict = {}
-    for first in range(1, TOTAL_SCRIPTS + 1, batch):
-        nums = list(range(first, min(first + batch, TOTAL_SCRIPTS + 1)))
-        label, human = request_for(nums)
-        scripts.update(split_scripts(_generate_until_done(settings, llm, system, human, label), nums))
-        # A batch reply can skip or merge scripts; fill any gap one script at a time.
-        for n in (n for n in nums if n not in scripts):
-            logger.info("[Execute Prompt 6] Script #%d missing from batch reply; generating it alone", n)
-            label, human = request_for([n])
-            scripts.update(split_scripts(_generate_until_done(settings, llm, system, human, label), [n]))
-        outputs = write_outputs(settings, subject_username, assemble(), stamp)
+    warning = ""
+    try:
+        for first in range(1, TOTAL_SCRIPTS + 1, batch):
+            nums = list(range(first, min(first + batch, TOTAL_SCRIPTS + 1)))
+            label, human = request_for(nums)
+            scripts.update(split_scripts(_generate_until_done(settings, llm, system, human, label), nums))
+            # A batch reply can skip or merge scripts; fill any gap one script at a time.
+            for n in (n for n in nums if n not in scripts):
+                logger.info("[Execute Prompt 6] Script #%d missing from batch reply; generating it alone", n)
+                label, human = request_for([n])
+                scripts.update(split_scripts(_generate_until_done(settings, llm, system, human, label), [n]))
+            outputs = write_outputs(settings, subject_username, assemble(), stamp)
 
-    summary_request = (
-        f"TASK: all {TOTAL_SCRIPTS} scripts are written (listed below). Write ONLY the Script Pack "
-        "Summary, starting with the heading `## Script Pack Summary`. Include Recording Priority "
-        "Order, Format Mix Check (10 Reels + 10 Carousels), and the Next 20 Posts Upload Plan table "
-        "with exactly 20 rows: | Post # | Day | Date (IST) | Time (IST) | Format | Script # | Topic | "
-        f"Why this slot |. Post n = Script #n, one post per day starting {start_date}, using IST peak "
-        "windows (Morning 08:00-09:30, Lunch 12:30-14:00, Evening 19:00-21:00, Late night 21:30-22:30). "
-        "Do not rewrite any scripts.\n\nScripts:\n" + "\n".join(f"- {t}" for t in titles()) + f"\n\n{context}"
-    )
-    summary = _generate_until_done(settings, llm, system, summary_request, "Script Pack Summary")
+        summary_request = (
+            f"TASK: all {TOTAL_SCRIPTS} scripts are written (listed below). Write ONLY the Script Pack "
+            "Summary, starting with the heading `## Script Pack Summary`. Include Recording Priority "
+            "Order, Format Mix Check (10 Reels + 10 Carousels), and the Next 20 Posts Upload Plan table "
+            "with exactly 20 rows: | Post # | Day | Date (IST) | Time (IST) | Format | Script # | Topic | "
+            f"Why this slot |. Post n = Script #n, one post per day starting {start_date}, using IST peak "
+            "windows (Morning 08:00-09:30, Lunch 12:30-14:00, Evening 19:00-21:00, Late night 21:30-22:30). "
+            "Do not rewrite any scripts.\n\nScripts:\n" + "\n".join(f"- {t}" for t in titles()) + f"\n\n{context}"
+        )
+        summary = _generate_until_done(settings, llm, system, summary_request, "Script Pack Summary")
+    except DailyLimitError as err:
+        # Keep the finished scripts instead of losing the whole run.
+        logger.warning("[Execute Prompt 6] stopped early after %d scripts: %s", len(scripts), err)
+        warning = f"Incomplete pack: {len(scripts)} of {TOTAL_SCRIPTS} scripts were written before the limit was hit. {err}"
+        summary = ""
     result = assemble(summary)
+    if warning:
+        result = f"> ⚠️ **{warning}**\n\n{result}"
     outputs = write_outputs(settings, subject_username, result, stamp)
-    return {"prompt_6_result": result, **outputs}
+    return {"prompt_6_result": result, "pack_warning": warning, **outputs}
